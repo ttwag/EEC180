@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vpartI
+!s110 1704915203
+!i10b 1
+!s100 C7L]FhE3C81YjTL<3c5OF2
+InB5@8Z2[MS[IlBSfnaVHQ3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/tw0420/Documents/lab1/test/tb_partI
+w1704914724
+8C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v
+FC:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v
+L0 6
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1704915203.000000
+!s107 C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+npart@i
+vtb_partI
+!s110 1704915202
+!i10b 1
+!s100 IL[`=GPf_WV=26T>7WzlF3
+I_zgea;NeBe;Haj4FIY<<83
+R0
+R1
+w1704915060
+8C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v
+FC:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1704915202.000000
+!s107 C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v|
+!i113 1
+R3
+R4
+ntb_part@i

@@ -1,0 +1,45 @@
+# Compile of majority.v was successful.
+# Compile of tb_majority.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_majority
+# vsim -gui work.tb_majority 
+# Start time: 10:40:32 on Jan 10,2024
+# Loading work.tb_majority
+# Loading work.majority
+add wave -position insertpoint  \
+sim:/tb_majority/count
+add wave -position insertpoint  \
+{sim:/tb_majority/LEDR[1]}
+run
+# in = 000, out = 0
+force -freeze {sim:/tb_majority/count[1]} 1 0
+force -drive {sim:/tb_majority/count[1]} 1 0
+# ** Error: (vsim-3458) Cannot use the 'force -drive' command on a register.
+# 
+force -freeze {sim:/tb_majority/count[1]} 1 10
+# Load canceled
+run
+# in = 011, out = 1
+run
+# in = 110, out = 1
+run
+# in = 111, out = 1
+run
+# in = 010, out = 0
+run
+# in = 011, out = 1
+run
+# in = 110, out = 1
+run
+# in = 111, out = 1
+run
+run
+run
+run
+quit sim
+# unknown switch: sim
+uit
+# invalid command name "uit"
+quit
+# End time: 11:31:50 on Jan 10,2024, Elapsed time: 0:51:18
+# Errors: 4, Warnings: 0
