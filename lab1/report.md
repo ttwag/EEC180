@@ -81,4 +81,5 @@ HEX1[1] = 0
 
 HEX1[0] = HEX1[5]
 
-AC + AB
+### Simulation
+![Figure4](./images/Figure4.png)
