@@ -1,5 +1,5 @@
 module tb_partII;
-	reg [2:0] count;
+	reg [3:0] count;
 	wire [7:0] HEX0;
 	wire [7:0] HEX1;
 	wire [7:0] HEX2;
@@ -17,8 +17,8 @@ module tb_partII;
 	  count = 4'b0000;
 	  repeat (16) begin
 		#100
-		$display("in = %b, out = %b", count, HEX0[0]);
-		$display("in = %b, out = %b", count, HEX0[1]);
+		$display("in = %b, out = %b", count, HEX0[7:0]);
+		$display("in = %b, out = %b", count, HEX1[7:0]);
 		count = count + 4'b0001;
 	  end
 	end
