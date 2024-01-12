@@ -1,5 +1,5 @@
 Analysis & Synthesis report for partII
-Wed Jan 10 12:54:47 2024
+Thu Jan 11 02:42:06 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -10,7 +10,13 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -37,22 +43,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Wed Jan 10 12:54:47 2024           ;
+; Analysis & Synthesis Status        ; Successful - Thu Jan 11 02:42:05 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; partII                                      ;
 ; Top-level Entity Name              ; partII                                      ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
-; UFM blocks                         ; N/A until Partition Merge                   ;
-; ADC blocks                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 8                                           ;
+;     Total combinational functions  ; 8                                           ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 68                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -147,8 +153,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -158,24 +164,179 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                        ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                    ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+; partii.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimated Total logic elements              ; 8           ;
+;                                             ;             ;
+; Total combinational functions               ; 8           ;
+; Logic element usage by number of LUT inputs ;             ;
+;     -- 4 input functions                    ; 7           ;
+;     -- 3 input functions                    ; 1           ;
+;     -- <=2 input functions                  ; 0           ;
+;                                             ;             ;
+; Logic elements by mode                      ;             ;
+;     -- normal mode                          ; 8           ;
+;     -- arithmetic mode                      ; 0           ;
+;                                             ;             ;
+; Total registers                             ; 0           ;
+;     -- Dedicated logic registers            ; 0           ;
+;     -- I/O registers                        ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 68          ;
+;                                             ;             ;
+; Embedded Multiplier 9-bit elements          ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; SW[1]~input ;
+; Maximum fan-out                             ; 8           ;
+; Total fan-out                               ; 110         ;
+; Average fan-out                             ; 0.76        ;
++---------------------------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+; |partII                    ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 68   ; 0            ; 0          ; |partII             ; partII      ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 68                          ;
+; cycloneiii_lcell_comb ; 11                          ;
+;     normal            ; 11                          ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 1                           ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 7                           ;
+;                       ;                             ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.27                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Jan 10 12:54:35 2024
+    Info: Processing started: Thu Jan 11 02:41:56 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off partII -c partII
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Warning (12125): Using design file partii.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: partII File: C:/Users/tw0420/Documents/lab1/synthesis/partII/partii.v Line: 6
-Error (10137): Verilog HDL Procedural Assignment error at partii.v(38): object "HEX0" on left-hand side of assignment must have a variable data type File: C:/Users/tw0420/Documents/lab1/synthesis/partII/partii.v Line: 38
-Error (10137): Verilog HDL Procedural Assignment error at partii.v(40): object "HEX0" on left-hand side of assignment must have a variable data type File: C:/Users/tw0420/Documents/lab1/synthesis/partII/partii.v Line: 40
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 2 errors, 2 warnings
-    Error: Peak virtual memory: 4700 megabytes
-    Error: Processing ended: Wed Jan 10 12:54:48 2024
-    Error: Elapsed time: 00:00:13
-    Error: Total CPU time (on all processors): 00:00:33
+    Info (12023): Found entity 1: partII File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 6
+Info (12127): Elaborating entity "partII" for the top level hierarchy
+Warning (10034): Output port "LEDR" at partii.v(17) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 9
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 10
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 10
+    Warning (13410): Pin "HEX1[6]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 10
+    Warning (13410): Pin "HEX1[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 10
+    Warning (13410): Pin "HEX2[0]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[1]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[2]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[3]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[4]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[5]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[6]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX2[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 11
+    Warning (13410): Pin "HEX3[0]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[1]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[2]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[3]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[4]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[5]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[6]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX3[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 12
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX4[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 13
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "HEX5[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 14
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 6 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
+Info (21057): Implemented 76 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 58 output pins
+    Info (21061): Implemented 8 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 58 warnings
+    Info: Peak virtual memory: 4753 megabytes
+    Info: Processing ended: Thu Jan 11 02:42:06 2024
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:23
 
 
