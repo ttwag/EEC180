@@ -1,5 +1,5 @@
 Analysis & Synthesis report for partII
-Thu Jan 11 02:42:06 2024
+Sun Jan 14 12:36:12 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -14,9 +14,10 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  9. Port Connectivity Checks: "dec_7seg_decoder:partII_display"
+ 10. Post-Synthesis Netlist Statistics for Top Partition
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -43,7 +44,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jan 11 02:42:05 2024       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jan 14 12:36:12 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; partII                                      ;
 ; Top-level Entity Name              ; partII                                      ;
@@ -169,6 +170,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                    ; Library ;
 +----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
+; ../../hdl/dec_7seg_decoder.v     ; yes             ; User Verilog HDL File        ; C:/Users/Tao Wang/Desktop/EEC180/lab1/hdl/dec_7seg_decoder.v    ;         ;
 ; partii.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v ;         ;
 +----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------+---------+
 
@@ -205,13 +207,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |partII                    ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 68   ; 0            ; 0          ; |partII             ; partII      ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                   ;
++--------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node           ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                     ; Entity Name      ; Library Name ;
++--------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+------------------+--------------+
+; |partII                              ; 8 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 68   ; 0            ; 0          ; |partII                                 ; partII           ; work         ;
+;    |dec_7seg_decoder:partII_display| ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |partII|dec_7seg_decoder:partII_display ; dec_7seg_decoder ; work         ;
++--------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -228,6 +231,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "dec_7seg_decoder:partII_display"                                                                                                                                                 ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                           ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; bin  ; Input ; Warning  ; Input port expression (10 bits) is wider than the input port (4 bits) it drives.  The 6 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -263,14 +275,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Thu Jan 11 02:41:56 2024
+    Info: Processing started: Sun Jan 14 12:36:05 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off partII -c partII
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab1/hdl/dec_7seg_decoder.v
+    Info (12023): Found entity 1: dec_7seg_decoder File: C:/Users/Tao Wang/Desktop/EEC180/lab1/hdl/dec_7seg_decoder.v Line: 1
 Warning (12125): Using design file partii.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: partII File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 6
 Info (12127): Elaborating entity "partII" for the top level hierarchy
 Warning (10034): Output port "LEDR" at partii.v(17) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 17
+Info (12128): Elaborating entity "dec_7seg_decoder" for hierarchy "dec_7seg_decoder:partII_display" File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 49
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 9
     Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 10
@@ -333,10 +349,10 @@ Info (21057): Implemented 76 device resources after synthesis - the final resour
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 58 output pins
     Info (21061): Implemented 8 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 58 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 59 warnings
     Info: Peak virtual memory: 4753 megabytes
-    Info: Processing ended: Thu Jan 11 02:42:06 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Processing ended: Sun Jan 14 12:36:12 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:15
 
 

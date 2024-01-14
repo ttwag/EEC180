@@ -1,5 +1,5 @@
 Fitter report for partII
-Thu Jan 11 02:42:14 2024
+Sun Jan 14 12:36:18 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Jan 11 02:42:14 2024       ;
+; Fitter Status                      ; Successful - Sun Jan 14 12:36:18 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; partII                                      ;
 ; Top-level Entity Name              ; partII                                      ;
@@ -90,6 +90,8 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                             ; Setting                               ; Default Value                         ;
 +--------------------------------------------------------------------+---------------------------------------+---------------------------------------+
 ; Device                                                             ; 10M50DAF484C7G                        ;                                       ;
+; Minimum Core Junction Temperature                                  ; 0                                     ;                                       ;
+; Maximum Core Junction Temperature                                  ; 85                                    ;                                       ;
 ; Fit Attempts to Skip                                               ; 0                                     ; 0.0                                   ;
 ; Use smart compilation                                              ; Off                                   ; Off                                   ;
 ; Enable parallel Assembler and Timing Analyzer during compilation   ; On                                    ; On                                    ;
@@ -152,7 +154,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.3%      ;
+;     Processors 2-4         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -999,13 +1001,14 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +----------+------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                   ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+---------------------+-------------+--------------+
-; |partII                    ; 9 (9)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 68   ; 0            ; 9 (9)        ; 0 (0)             ; 0 (0)            ; 0          ; |partII             ; partII      ; work         ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+---------------------+-------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                      ;
++--------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-----------------------------------------+------------------+--------------+
+; Compilation Hierarchy Node           ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; ADC blocks ; Full Hierarchy Name                     ; Entity Name      ; Library Name ;
++--------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-----------------------------------------+------------------+--------------+
+; |partII                              ; 9 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 1          ; 0            ; 0       ; 0         ; 68   ; 0            ; 9 (1)        ; 0 (0)             ; 0 (0)            ; 0          ; |partII                                 ; partII           ; work         ;
+;    |dec_7seg_decoder:partII_display| ; 8 (8)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0          ; |partII|dec_7seg_decoder:partII_display ; dec_7seg_decoder ; work         ;
++--------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+-----------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1085,53 +1088,53 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+---------------------------------------------------+
-; Pad To Core Delay Chain Fanout                    ;
-+---------------------+-------------------+---------+
-; Source Pin / Fanout ; Pad To Core Index ; Setting ;
-+---------------------+-------------------+---------+
-; SW[4]               ;                   ;         ;
-; SW[5]               ;                   ;         ;
-; SW[6]               ;                   ;         ;
-; SW[7]               ;                   ;         ;
-; SW[8]               ;                   ;         ;
-; SW[9]               ;                   ;         ;
-; SW[1]               ;                   ;         ;
-;      - HEX0~0       ; 0                 ; 6       ;
-;      - HEX0~1       ; 0                 ; 6       ;
-;      - HEX0~2       ; 0                 ; 6       ;
-;      - HEX0~3       ; 0                 ; 6       ;
-;      - HEX0~4       ; 0                 ; 6       ;
-;      - HEX0~5       ; 0                 ; 6       ;
-;      - HEX0~6       ; 0                 ; 6       ;
-;      - HEX1~0       ; 0                 ; 6       ;
-; SW[3]               ;                   ;         ;
-;      - HEX0~0       ; 1                 ; 6       ;
-;      - HEX0~1       ; 1                 ; 6       ;
-;      - HEX0~2       ; 1                 ; 6       ;
-;      - HEX0~3       ; 1                 ; 6       ;
-;      - HEX0~4       ; 1                 ; 6       ;
-;      - HEX0~5       ; 1                 ; 6       ;
-;      - HEX0~6       ; 1                 ; 6       ;
-;      - HEX1~0       ; 1                 ; 6       ;
-; SW[0]               ;                   ;         ;
-;      - HEX0~0       ; 0                 ; 6       ;
-;      - HEX0~1       ; 0                 ; 6       ;
-;      - HEX0~2       ; 0                 ; 6       ;
-;      - HEX0~3       ; 0                 ; 6       ;
-;      - HEX0~4       ; 0                 ; 6       ;
-;      - HEX0~5       ; 0                 ; 6       ;
-;      - HEX0~6       ; 0                 ; 6       ;
-; SW[2]               ;                   ;         ;
-;      - HEX0~0       ; 0                 ; 6       ;
-;      - HEX0~1       ; 0                 ; 6       ;
-;      - HEX0~2       ; 0                 ; 6       ;
-;      - HEX0~3       ; 0                 ; 6       ;
-;      - HEX0~4       ; 0                 ; 6       ;
-;      - HEX0~5       ; 0                 ; 6       ;
-;      - HEX0~6       ; 0                 ; 6       ;
-;      - HEX1~0       ; 0                 ; 6       ;
-+---------------------+-------------------+---------+
++--------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                 ;
++--------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                              ; Pad To Core Index ; Setting ;
++--------------------------------------------------+-------------------+---------+
+; SW[4]                                            ;                   ;         ;
+; SW[5]                                            ;                   ;         ;
+; SW[6]                                            ;                   ;         ;
+; SW[7]                                            ;                   ;         ;
+; SW[8]                                            ;                   ;         ;
+; SW[9]                                            ;                   ;         ;
+; SW[1]                                            ;                   ;         ;
+;      - dec_7seg_decoder:partII_display|hex0[0]~0 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[1]   ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[2]~1 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[3]~2 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[4]~3 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[5]~4 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[6]~5 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex1[0]~0 ; 0                 ; 6       ;
+; SW[3]                                            ;                   ;         ;
+;      - dec_7seg_decoder:partII_display|hex0[0]~0 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[1]   ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[2]~1 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[3]~2 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[4]~3 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[5]~4 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[6]~5 ; 1                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex1[0]~0 ; 1                 ; 6       ;
+; SW[0]                                            ;                   ;         ;
+;      - dec_7seg_decoder:partII_display|hex0[0]~0 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[1]   ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[2]~1 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[3]~2 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[4]~3 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[5]~4 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[6]~5 ; 0                 ; 6       ;
+; SW[2]                                            ;                   ;         ;
+;      - dec_7seg_decoder:partII_display|hex0[0]~0 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[1]   ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[2]~1 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[3]~2 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[4]~3 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[5]~4 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex0[6]~5 ; 0                 ; 6       ;
+;      - dec_7seg_decoder:partII_display|hex1[0]~0 ; 0                 ; 6       ;
++--------------------------------------------------+-------------------+---------+
 
 
 +------------------------------------------------+
@@ -1396,8 +1399,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device 10M50DAF484C7G for design "partII"
-Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
-Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
@@ -1452,12 +1455,12 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.04 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.03 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169177): 10 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
     Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at A12 File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
     Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at B12 File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
@@ -1471,10 +1474,10 @@ Warning (169177): 10 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 
     Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at D12 File: C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partii.v Line: 21
 Info (144001): Generated suppressed messages file C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partII/partII.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5639 megabytes
-    Info: Processing ended: Thu Jan 11 02:42:15 2024
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 5638 megabytes
+    Info: Processing ended: Sun Jan 14 12:36:19 2024
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:08
 
 
 +----------------------------+

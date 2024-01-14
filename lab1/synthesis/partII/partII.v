@@ -39,46 +39,57 @@ module partII(
 //			bin,
 //	output [7:0]
 //			hex0,
-//			//hex1
+//			hex1
 //);
 
-
-// Logic
-
-// HEX0
-assign HEX0[7] = 1;
-
-assign HEX0[6] = (!SW[3] & !SW[2] & !SW[1]) | (SW[3] & !SW[2] & SW[1]) | (!SW[3] & SW[2] & SW[1] & SW[0]);
-
-assign HEX0[5] = (!SW[3] & !SW[2] & SW[0]) | (!SW[3] & !SW[2] & SW[1]) | (!SW[3] & SW[1] & SW[0]) | (!SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & !SW[1]);
-
-assign HEX0[4] = (SW[0]) | (!SW[3] & SW[2] & !SW[1]) | (SW[3] & SW[2] & SW[1]);
-
-assign HEX0[3] = (!SW[2] & !SW[1] & SW[0]) | (SW[3] & !SW[2] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]) | (!SW[3] & SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & SW[1] & !SW[0]);
-
-assign HEX0[2] = (!SW[3] & !SW[2] & SW[1] & !SW[0]) | (SW[3] & SW[2] & !SW[1] & !SW[0]);
-
-assign HEX0[1] = (!SW[3] & SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & SW[1] & !SW[0]) | (SW[3] & SW[2] & SW[1] & SW[0]);
-
-assign HEX0[0] = (!SW[3] & !SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]) | (SW[3] & !SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & SW[1] & !SW[0]);
+// Make a new dec_7seg_decoder instance from the dec_7seg_decoder.v and make appropriate assignment
+dec_7seg_decoder partII_display (
+	.bin(SW),
+	.hex0(HEX0),
+	.hex1(HEX1)
+);
 
 
-// HEX1
-assign HEX1[7] = 1;
 
-assign HEX1[6] = 1;
 
-assign HEX1[5] = (SW[3] & SW[1]) | (SW[3] & SW[2]);
 
-assign HEX1[4] = HEX1[5];
-
-assign HEX1[3] = HEX1[5];
-
-assign HEX1[2] = 0;
-
-assign HEX1[1] = 0;
-
-assign HEX1[0] = HEX1[5];
+// Logic for partII
+//
+//// HEX0
+//assign HEX0[7] = 1;
+//
+//assign HEX0[6] = (!SW[3] & !SW[2] & !SW[1]) | (SW[3] & !SW[2] & SW[1]) | (!SW[3] & SW[2] & SW[1] & SW[0]);
+//
+//assign HEX0[5] = (!SW[3] & !SW[2] & SW[0]) | (!SW[3] & !SW[2] & SW[1]) | (!SW[3] & SW[1] & SW[0]) | (!SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & !SW[1]);
+//
+//assign HEX0[4] = (SW[0]) | (!SW[3] & SW[2] & !SW[1]) | (SW[3] & SW[2] & SW[1]);
+//
+//assign HEX0[3] = (!SW[2] & !SW[1] & SW[0]) | (SW[3] & !SW[2] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]) | (!SW[3] & SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & SW[1] & !SW[0]);
+//
+//assign HEX0[2] = (!SW[3] & !SW[2] & SW[1] & !SW[0]) | (SW[3] & SW[2] & !SW[1] & !SW[0]);
+//
+//assign HEX0[1] = (!SW[3] & SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & SW[1] & !SW[0]) | (SW[3] & SW[2] & SW[1] & SW[0]);
+//
+//assign HEX0[0] = (!SW[3] & !SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]) | (SW[3] & !SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & SW[1] & !SW[0]);
+//
+//
+//// HEX1
+//assign HEX1[7] = 1;
+//
+//assign HEX1[6] = 1;
+//
+//assign HEX1[5] = (SW[3] & SW[1]) | (SW[3] & SW[2]);
+//
+//assign HEX1[4] = HEX1[5];
+//
+//assign HEX1[3] = HEX1[5];
+//
+//assign HEX1[2] = 0;
+//
+//assign HEX1[1] = 0;
+//
+//assign HEX1[0] = HEX1[5];
+//
 
 // Turn off the rest of the displays
 assign HEX2 = 8'b11111111;
