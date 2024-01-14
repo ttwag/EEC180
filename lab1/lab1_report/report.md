@@ -2,6 +2,19 @@
 
 ## Part 1
 
+I created a basic logic with switches and LEDR based on the following truth table.
+
+| SW1 | SW0 | LEDR[2] | LEDR[1] | LEDR[0] |
+| ---:| ---:| ---:| ---:| ---:|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 0 | 0 |
+
+SW[1:0] represent the binary input, and LEDR[2:0] represent the decimal output. For example, when SW1 = 1 and SW0 = 1, 3 is the decimal representation of the binary 11, so LEDR[2] lights up because it's the third LEDR.
+
+![Figure1](./images/Figure1.png)
+
 ## Part 2
 
 ### HEX0
@@ -25,8 +38,7 @@
 | 1 | 1 | 1 | 0 |  1|0|0|1|1|0|0|1|
 | 1 | 1 | 1 | 1 |  1|0|0|1|0|0|1|0|
 
-
-A = SW[3] B = SW[2] C = SW[1] D = SW[0]
+**Output Equations**
 
 HEX0[7] = 1
 
@@ -65,6 +77,8 @@ HEX0[0] = (!SW[3] & !SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]
 | 1 | 1 | 1 | 0 |  1|1|1|1|1|0|0|1|
 | 1 | 1 | 1 | 1 |  1|1|1|1|1|0|0|1|
 
+**Output Equations**
+
 HEX1[7] = 1
 
 HEX1[6] = 1
@@ -82,4 +96,4 @@ HEX1[1] = 0
 HEX1[0] = HEX1[5]
 
 ### Simulation
-![Figure4](./images/Figure4.png)
+![Figure4](./images/Figure2.png)
