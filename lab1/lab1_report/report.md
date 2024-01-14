@@ -1,6 +1,9 @@
-# Lab 1 Report
+# EEC180 Lab 1 Report
+**Name:** Tao Wang
 
-## Part 1
+**Section**: A01
+
+## Part I
 
 I created a basic logic with switches and LEDR based on the following truth table.
 
@@ -15,10 +18,13 @@ SW[1:0] represent the binary input, and LEDR[2:0] represent the decimal output. 
 
 ![Figure1](./images/Figure1.png)
 
-## Part 2
+## Part II
 
-### HEX0
+In partII of the lab, I computed the output boolean equation for each segment of the HEX0 and HEX1 display by using the truth table below.
 
+I then assigned these equations to the associated segments with the ```assign``` statement, which continuously checks the input and update the output.
+
+### **HEX0**
 | SW3 | SW2 | SW1 | SW0 | HEX0[7] | HEX0[6] | HEX0[5] | HEX0[4] | HEX0[3] | HEX0[2] | HEX0[1] | HEX0[0] |
 | ---:| ----:| ---:| ---:| ---:| ---:|---:| ---:| ---:| ---:| ---:| ---:|
 | 0 | 0 | 0 | 0 |  1|1|0|0|0|0|0|0|
@@ -56,8 +62,7 @@ HEX0[1] = (!SW[3] & SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & SW[1] & !SW[0]) 
 
 HEX0[0] = (!SW[3] & !SW[2] & !SW[1] & SW[0]) | (!SW[3] & SW[2] & !SW[1] & !SW[0]) | (SW[3] & !SW[2] & SW[1] & SW[0]) | (SW[3] & SW[2] & SW[1] & !SW[0])
 
-### HEX1
-
+### **HEX1**
 | SW3 | SW2 | SW1 | SW0 | HEX1[7] | HEX1[6] | HEX1[5] | HEX1[4] | HEX1[3] | HEX1[2] | HEX1[1] | HEX1[0] |
 | ---:| ----:| ---:| ---:| ---:| ---:|---:| ---:| ---:| ---:| ---:| ---:|
 | 0 | 0 | 0 | 0 |  1|1|0|0|0|0|0|0|
@@ -95,5 +100,8 @@ HEX1[1] = 0
 
 HEX1[0] = HEX1[5]
 
-### Simulation
+**Simulation**
 ![Figure4](./images/Figure2.png)
+
+## Helpful Link
+Visit this [GitHub Page](https://github.com/ttwag/EEC180/blob/main/lab1/lab1_report/report.md) for more information about the lab.
