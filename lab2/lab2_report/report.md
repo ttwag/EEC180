@@ -2,7 +2,7 @@
 
 ## Pre-Lab
 
-Boolean Equation that decodes the segment 5 of the HEX1 display in a 4 bits input:
+Boolean Equation that decodes the segment 5 of the HEX1 display in a 4-bit input:
 
 HEX1[5] = (SW[3] & SW[1]) | (SW[3] & SW[2])
 
@@ -12,7 +12,7 @@ HEX1[5] = (SW[3] & SW[1]) | (SW[3] & SW[2])
 ```
 module seg_decoder (
     input [3:0] sw,
-    input [5] hex1;
+    output [5] hex1;
 );
 
 and(g, sw[3], sw[1]);
@@ -23,12 +23,12 @@ endmodule
 ```
 
 **Behavioral Model**
-* Behavioral Model models the behavior of the gate with boolean equations without building them ourselves.
+* Behavioral Model models the behavior of the gates with boolean equations without building the gates.
 
 ```
 module seg_decoder (
     input [3:0] sw,
-    input [5] hex1;
+    output [5] hex1;
 );
 assign hex1[5] = (sw[3] & sw[1]) | (sw[3] & sw[2]);
 
