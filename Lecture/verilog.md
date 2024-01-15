@@ -6,6 +6,7 @@ Reuirements -> Design Specification -> Design Formulation (System Architecture) 
 ## Why not Use C?
 * Hardware is concurrent, C is sequential.
 * C has no support for hardware abstractions like registers, clocks, structural hierarchy, and timing.
+
 ## Verilog
 * Case Sensitive
 * White Space Ignored
@@ -13,7 +14,7 @@ Reuirements -> Design Specification -> Design Formulation (System Architecture) 
 * ```//``` for comment
 
 ### Example
-$$f = (x_1 \& x_2) | (!x_2 \& x_3) = g | h$$
+f = (x1 & x2) | (!x2 & x3) = g | h
 
 **Structual Model**
 * Quite tedious for a large circuit
