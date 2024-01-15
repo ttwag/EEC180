@@ -1,28 +1,4 @@
 # Compile of tb_partI.v was successful.
 # Compile of partI.v was successful.
 # 2 compiles, 0 failed with no errors.
-vsim -gui work.tb_partI
-# vsim -gui work.tb_partI 
-# Start time: 11:33:42 on Jan 10,2024
-# Loading work.tb_partI
-# Loading work.partI
-add wave -position insertpoint  \
-sim:/tb_partI/count
-add wave -position insertpoint  \
-{sim:/tb_partI/LEDR[0]}
-add wave -position insertpoint  \
-{sim:/tb_partI/LEDR[1]}
-add wave -position insertpoint  \
-{sim:/tb_partI/LEDR[2]}
-run
-# in = 000, out = 0
-run
-# in = 001, out = 0
-run
-# in = 010, out = 1
-run
-# in = 011, out = 0
-run
-# in = 100, out = 0
-run
-# in = 101, out = 0
+# Load canceled

@@ -9,46 +9,46 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vpartI
-!s110 1704915203
+Z0 !s110 1705288751
 !i10b 1
-!s100 C7L]FhE3C81YjTL<3c5OF2
-InB5@8Z2[MS[IlBSfnaVHQ3
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/Users/tw0420/Documents/lab1/test/tb_partI
-w1704914724
-8C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v
-FC:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v
+!s100 U^EPN<=7mO;IE41lgzVb62
+Im9Y15Qh>g9M5J:VzWHA@a0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab1/test/tb_partI
+Z3 w1704960344
+8C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partI/partI.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partI/partI.v
 L0 6
-Z2 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1704915203.000000
-!s107 C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tw0420/Documents/lab1/synthesis/partI/partI.v|
+Z5 !s108 1705288751.000000
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partI/partI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab1/synthesis/partI/partI.v|
 !i113 1
-Z3 o-work work
-Z4 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 npart@i
 vtb_partI
-!s110 1704915202
+R0
 !i10b 1
 !s100 IL[`=GPf_WV=26T>7WzlF3
-I_zgea;NeBe;Haj4FIY<<83
-R0
+I`IZ<SCd6[HYiR3Q;Cj<k`0
 R1
-w1704915060
-8C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v
-FC:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v
-L0 1
 R2
+R3
+8C:/Users/Tao Wang/Desktop/EEC180/lab1/test/tb_partI/tb_partI.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab1/test/tb_partI/tb_partI.v
+L0 1
+R4
 r1
 !s85 0
 31
-!s108 1704915202.000000
-!s107 C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/tw0420/Documents/lab1/test/tb_partI/tb_partI.v|
+R5
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab1/test/tb_partI/tb_partI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab1/test/tb_partI/tb_partI.v|
 !i113 1
-R3
-R4
+R6
+R7
 ntb_part@i
