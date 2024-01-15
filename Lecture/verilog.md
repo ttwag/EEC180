@@ -17,7 +17,8 @@ Reuirements -> Design Specification -> Design Formulation (System Architecture) 
 f = (x1 & x2) | (!x2 & x3) = g | h
 
 **Structual Model**
-* Quite tedious for a large circuit
+* You build the gates in Verilog.
+* Quite tedious for a large circuit.
 
 ```
 module example1 (x1, x2, x3, f);
