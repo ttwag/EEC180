@@ -84,3 +84,54 @@ wire[3:0] dbus     // a 4-bit bus with 0 as LSB
 ```
 * **Reg**: like a variable.
     * ```reg [9:0]r1        //r1 is a 10-bit register```
+* **Integer**
+* **Time**
+* **Real**
+
+### Representation of Number in Verilog
+* Choosing just the right number of bits make more efficient hardware.
+```
+// Sized number
+12'b101010101011 //12 bit binary
+12'o4251        // 12 bit OCTAL
+12'h8A9         // 12 bit hexadecimal
+
+// Unsized number
+`o4251           // No need to specify the number of bit
+
+// Negative Sign
+-4'b0101        // Two's complement representation, which is 1011
+```
+
+### Signed Arithmetic
+
+```
+reg signed [7:0] A          // A is signed 8 bit 2's complement
+
+```
+
+### Modeling Delay
+
+```
+nand#35(f1, a, b, c)    //#35 is the propagation delay
+
+// The #35 also specifies how long the input must persist for the output to change.
+```
+
+### Watching Output
+```$monitor``` : give it a list of variable. When one of them changes, it prints the information.
+
+```
+$monitor($time,,, "a=%b, b = %b,...)
+
+// prints a = 0, b = 0, ...
+```
+
+
+### How to Test Our Design?
+* Design using structral verilog and test using behavioral verilog.
+* Design then verify with a reference written in high-level languages.
+
+
+### Parameters
+* Parameter is a local constant that can be changed during instantiation of the object
