@@ -1,25 +1,25 @@
-# Compile of tb_partI.v was successful.
-# Compile of partI.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.tb_partI
 # vsim -gui work.tb_partI 
-# Start time: 11:28:15 on Jan 14,2024
+# Start time: 17:13:38 on Jan 17,2024
 # Loading work.tb_partI
 # Loading work.partI
+# Load canceled
 add wave -position insertpoint  \
-sim:/tb_partI/count
+sim:/tb_partI/LEDR
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: tw0420  Hostname: COE-ECE-2110-19  ProcessID: 10712
-#           Attempting to use alternate WLF file "./wlftrg7siz".
+#           Attempting to use alternate WLF file "./wlftk9x2wm".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftrg7siz
+#           Using alternate file: ./wlftk9x2wm
+add wave -position insertpoint  \
+sim:/tb_partI/count
+run
+# in = 00, out = 0
+# in = 00, out = 0
 add wave -position insertpoint  \
 {sim:/tb_partI/LEDR[2]} \
 {sim:/tb_partI/LEDR[1]} \
 {sim:/tb_partI/LEDR[0]}
-run
-# in = 00, out = 0
-# in = 00, out = 0
 run
 # in = 01, out = 1
 # in = 01, out = 0
@@ -29,8 +29,5 @@ run
 run
 # in = 11, out = 0
 # in = 11, out = 0
-run
-run
-run
-# End time: 12:14:18 on Jan 14,2024, Elapsed time: 0:46:03
-# Errors: 0, Warnings: 2
+# End time: 18:34:40 on Jan 17,2024, Elapsed time: 1:21:02
+# Errors: 1, Warnings: 2
