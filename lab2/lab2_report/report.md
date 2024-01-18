@@ -8,7 +8,7 @@ co = (a & b) | (a & ci) | (b & ci)
 s = a ^ b ^ ci
 
 **Structural Model**
-* Structural Model builds the actual gate structure in Verilog.
+* The Structural Model builds the actual gate structure in Verilog.
 
 ```
 module seg_decoder (
@@ -28,7 +28,7 @@ endmodule
 ```
 
 **Behavioral Model**
-* Behavioral Model models the behavior of the gates with boolean equations without building the gates.
+* The Behavioral Model models the behavior of the gates with boolean equations without building the gates.
 
 ```
 a + b
