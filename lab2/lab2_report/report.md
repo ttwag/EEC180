@@ -51,3 +51,10 @@ When does the adder overflow?
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 0 |
 
+**Output Equation**
+
+overflow = (!a[7] & !b[7] & sum[7]) | (a[7] & b[7] & !sum[7])
+
+### Encountered Issues
+1. Don't feed 0 for the 1-bit ground 0. In verilog, a 0 without specifying the bitwidth will be a 32-bit integer, and it causes compilation problem if the program treats it as a 1-bit 0. 
+2. When writing a for loop in Verilog, be careful of the terminating condition. For example, if a loop iterates a register, ```[1:0]test```, from 0 to 3 to test all possible inputs, ```for (test = 0; test < 4; test++)```, test could become ```2'b11```. If the loop adds 1 to it, it goes to 0 and NOT 4, which leads to an **infinite loop.**
