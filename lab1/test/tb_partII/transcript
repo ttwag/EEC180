@@ -1,0 +1,59 @@
+vsim -gui work.tb_partII
+# vsim -gui work.tb_partII 
+# Start time: 17:25:41 on Jan 17,2024
+# Loading work.tb_partII
+# Loading work.partII
+add wave -position insertpoint  \
+sim:/tb_partII/count \
+sim:/tb_partII/HEX0 \
+sim:/tb_partII/HEX1
+run
+# in = 0000, out = 11000000
+# in = 0000, out = 11000000
+run
+# in = 0001, out = 11111001
+# in = 0001, out = 11000000
+run
+# in = 0010, out = 10100100
+# in = 0010, out = 11000000
+run
+# in = 0011, out = 10110000
+# in = 0011, out = 11000000
+run
+# in = 0100, out = 10011001
+# in = 0100, out = 11000000
+run
+# in = 0101, out = 10010010
+# in = 0101, out = 11000000
+run
+# in = 0110, out = 10000010
+# in = 0110, out = 11000000
+run
+# in = 0111, out = 11111000
+# in = 0111, out = 11000000
+run
+# in = 1000, out = 10000000
+# in = 1000, out = 11000000
+run
+# in = 1001, out = 10011000
+# in = 1001, out = 11000000
+run
+# in = 1010, out = 11000000
+# in = 1010, out = 11111001
+run
+# in = 1011, out = 11111001
+# in = 1011, out = 11111001
+run
+# in = 1100, out = 10100100
+# in = 1100, out = 11111001
+run
+# in = 1101, out = 10110000
+# in = 1101, out = 11111001
+run
+# in = 1110, out = 10011001
+# in = 1110, out = 11111001
+run
+# in = 1111, out = 10010010
+# in = 1111, out = 11111001
+# End time: 18:32:22 on Jan 17,2024, Elapsed time: 1:06:41
+# Errors: 0, Warnings: 0
