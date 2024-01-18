@@ -1,19 +1,27 @@
 module tBench;
-	wire [1:0]sum, co;
-	reg [3:0]test;
+	wire [7:0]sum; 
+	wire cout;
+	wire overflow;
+	reg [16:0]test;
 	integer errorCount = 0;
 	// design under test;
-partI_add FA (sum[1:0], co, test[3:2], test[1:0]);
+partI_add FA (test[15:8], test[7:0], sum[7:0], cout, overflow);
 // stimulus and verification that the output is correct
-initial begin
-	for (test = 0; test < 16; test = test + 1)
-	begin
-		#10;
-		if ({co, sum[1], sum[0]} != (test[3:2] + test[1:0]))
-			$display("ERROR: a=%b b=%b sum=%b cout=%b", test[1], test[0], sum, co);
-			errorCount++;
+	initial begin
+		$display("Testing Begins:");
+		for (test = 0; test < 2**16; test = test + 1) begin
+			#10;
+			if ({cout, sum[7:0]} != (test[15:8] + test[7:0])) begin
+				$display("ADDITION ERROR: a=%b b=%b sum=%b cout=%b", test[15:8], test[7:0], sum[7:0], cout);
+				errorCount = errorCount + 1;
+			end
+			else if (overflow != ((!test[15] & !test[7] & sum[7]) | (test[15] & test[7] & !sum[7]))) begin 
+				$display("OVERFLOW ERROR: a=%b b=%b sum=%b cout=%b, overflow=%b", test[15:8], test[7:0], sum[7:0], cout, overflow);
+				errorCount = errorCount + 1;
+			end
 		end
-		#10 $finish;
+		$display("Error: %d", errorCount);
+		$display("number of Test Cases: %d", test);
+//		$finish;
 	end
-	$display("Error: %d", errorCount);
 endmodule
