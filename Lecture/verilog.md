@@ -134,4 +134,47 @@ $monitor($time,,, "a=%b, b = %b,...)
 
 
 ### Parameters
-* Parameter is a local constant that can be changed during instantiation of the object
+* A Parameter is a local constant that can be changed during the instantiation of the object
+
+### Generate
+
+Instantiate a bunch of modules and systematically connect them for hierarchical design.
+
+```
+module generateDemo();
+
+genvar i;
+
+generate for (i = 0; i <= 2; i = i + 1) begin
+    moduleName instanceName (
+        .input(input),
+        .output(output)
+    );
+end
+endmodule
+```
+
+### Behavior Modeling
+
+**always statement**
+* Inside ```always``` statement to denote hardware's concurrent nature.
+* Everything inside always happens at the same time and never stops.
+* Inside the ```always``` statement, the left-hand side of an assignment must be a ```reg```.
+```
+always () begin
+
+    // Sequential statements
+    // eg., assign a = b | c
+    // eg., if else conditional statements
+
+end
+```
+
+
+**Initial Statement**
+* An ```always``` statement but only executes once and stops. 
+* We need ```initial``` for initialization and writing testbench.
+
+**Loops**
+* The loop body must have a delay statement.
+
