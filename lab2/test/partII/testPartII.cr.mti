@@ -1,4 +1,11 @@
-{C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v}
+{C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module mult4
 
@@ -11,12 +18,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	mult
-
-} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module myMultiplier
-
-Top level modules:
-	myMultiplier
 
 } {} {}}

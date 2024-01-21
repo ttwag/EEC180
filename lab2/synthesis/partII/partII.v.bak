@@ -32,12 +32,11 @@ module partII(
 
 wire [7:0] result;
 
-// Multiplication and result in HEX0, HEX1
 myMultiplier mult1 (
 	.a(SW[3:0]),
 	.b(SW[7:4]),
 	.product(result)
-);
+)
 
 decoder decoder1 (
 	.hex(result[3:0]),
@@ -50,20 +49,15 @@ decoder decoder2 (
 );
 
 
-// B
 decoder decoder3 (
 	.hex(SW[3:0]),
 	.seg(HEX2[7:0])
 );
 
-// A
 decoder decoder4 (
 	.hex(SW[7:4]),
 	.seg(HEX3[7:0])
 );
-
-assign HEX4 = 8'b11111111;
-assign HEX5 = 8'b11111111;
 
 endmodule
 

@@ -1,0 +1,356 @@
+|partII
+HEX0[0] <= decoder:decoder1.seg
+HEX0[1] <= decoder:decoder1.seg
+HEX0[2] <= decoder:decoder1.seg
+HEX0[3] <= decoder:decoder1.seg
+HEX0[4] <= decoder:decoder1.seg
+HEX0[5] <= decoder:decoder1.seg
+HEX0[6] <= decoder:decoder1.seg
+HEX0[7] <= decoder:decoder1.seg
+HEX1[0] <= decoder:decoder2.seg
+HEX1[1] <= decoder:decoder2.seg
+HEX1[2] <= decoder:decoder2.seg
+HEX1[3] <= decoder:decoder2.seg
+HEX1[4] <= decoder:decoder2.seg
+HEX1[5] <= decoder:decoder2.seg
+HEX1[6] <= decoder:decoder2.seg
+HEX1[7] <= decoder:decoder2.seg
+HEX2[0] <= decoder:decoder3.seg
+HEX2[1] <= decoder:decoder3.seg
+HEX2[2] <= decoder:decoder3.seg
+HEX2[3] <= decoder:decoder3.seg
+HEX2[4] <= decoder:decoder3.seg
+HEX2[5] <= decoder:decoder3.seg
+HEX2[6] <= decoder:decoder3.seg
+HEX2[7] <= decoder:decoder3.seg
+HEX3[0] <= decoder:decoder4.seg
+HEX3[1] <= decoder:decoder4.seg
+HEX3[2] <= decoder:decoder4.seg
+HEX3[3] <= decoder:decoder4.seg
+HEX3[4] <= decoder:decoder4.seg
+HEX3[5] <= decoder:decoder4.seg
+HEX3[6] <= decoder:decoder4.seg
+HEX3[7] <= decoder:decoder4.seg
+HEX4[0] <= <VCC>
+HEX4[1] <= <VCC>
+HEX4[2] <= <VCC>
+HEX4[3] <= <VCC>
+HEX4[4] <= <VCC>
+HEX4[5] <= <VCC>
+HEX4[6] <= <VCC>
+HEX4[7] <= <VCC>
+HEX5[0] <= <VCC>
+HEX5[1] <= <VCC>
+HEX5[2] <= <VCC>
+HEX5[3] <= <VCC>
+HEX5[4] <= <VCC>
+HEX5[5] <= <VCC>
+HEX5[6] <= <VCC>
+HEX5[7] <= <VCC>
+SW[0] => SW[0].IN2
+SW[1] => SW[1].IN2
+SW[2] => SW[2].IN2
+SW[3] => SW[3].IN2
+SW[4] => SW[4].IN2
+SW[5] => SW[5].IN2
+SW[6] => SW[6].IN2
+SW[7] => SW[7].IN2
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+
+
+|partII|myMultiplier:mult1
+a[0] => a[0].IN3
+a[1] => a[1].IN4
+a[2] => a[2].IN4
+a[3] => a[3].IN4
+b[0] => b[0].IN3
+b[1] => b[1].IN4
+b[2] => b[2].IN4
+b[3] => b[3].IN4
+product[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+product[1] <= mult4:a1.sum
+product[2] <= mult4:a2.sum
+product[3] <= mult4:a3.sum
+product[4] <= mult4:a3.sum
+product[5] <= mult4:a3.sum
+product[6] <= mult4:a3.sum
+product[7] <= mult4:a3.out
+
+
+|partII|myMultiplier:mult1|mult4:a1
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+i[8] => i[8].IN1
+i[9] => i[9].IN1
+i[10] => i[10].IN1
+i[11] => i[11].IN1
+i[12] => i[12].IN1
+i[13] => i[13].IN1
+i[14] => i[14].IN1
+i[15] => i[15].IN1
+sum[0] <= mult:m1.s
+sum[1] <= mult:m2.s
+sum[2] <= mult:m3.s
+sum[3] <= mult:m6.s
+out <= mult:m6.cout
+
+
+|partII|myMultiplier:mult1|mult4:a1|mult:m1
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a1|mult:m2
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a1|mult:m3
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a1|mult:m6
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a2
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+i[8] => i[8].IN1
+i[9] => i[9].IN1
+i[10] => i[10].IN1
+i[11] => i[11].IN1
+i[12] => i[12].IN1
+i[13] => i[13].IN1
+i[14] => i[14].IN1
+i[15] => i[15].IN1
+sum[0] <= mult:m1.s
+sum[1] <= mult:m2.s
+sum[2] <= mult:m3.s
+sum[3] <= mult:m6.s
+out <= mult:m6.cout
+
+
+|partII|myMultiplier:mult1|mult4:a2|mult:m1
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a2|mult:m2
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a2|mult:m3
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a2|mult:m6
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a3
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+i[4] => i[4].IN1
+i[5] => i[5].IN1
+i[6] => i[6].IN1
+i[7] => i[7].IN1
+i[8] => i[8].IN1
+i[9] => i[9].IN1
+i[10] => i[10].IN1
+i[11] => i[11].IN1
+i[12] => i[12].IN1
+i[13] => i[13].IN1
+i[14] => i[14].IN1
+i[15] => i[15].IN1
+sum[0] <= mult:m1.s
+sum[1] <= mult:m2.s
+sum[2] <= mult:m3.s
+sum[3] <= mult:m6.s
+out <= mult:m6.cout
+
+
+|partII|myMultiplier:mult1|mult4:a3|mult:m1
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a3|mult:m2
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a3|mult:m3
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|myMultiplier:mult1|mult4:a3|mult:m6
+a0 => a.IN0
+a1 => a.IN1
+b0 => b.IN0
+b1 => b.IN1
+cin => w2.IN1
+cin => w3.IN1
+cin => comb.IN1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|decoder:decoder1
+hex[0] => Decoder0.IN3
+hex[1] => Decoder0.IN2
+hex[2] => Decoder0.IN1
+hex[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= <VCC>
+
+
+|partII|decoder:decoder2
+hex[0] => Decoder0.IN3
+hex[1] => Decoder0.IN2
+hex[2] => Decoder0.IN1
+hex[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= <VCC>
+
+
+|partII|decoder:decoder3
+hex[0] => Decoder0.IN3
+hex[1] => Decoder0.IN2
+hex[2] => Decoder0.IN1
+hex[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= <VCC>
+
+
+|partII|decoder:decoder4
+hex[0] => Decoder0.IN3
+hex[1] => Decoder0.IN2
+hex[2] => Decoder0.IN1
+hex[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= <VCC>
+
+
