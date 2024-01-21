@@ -1,0 +1,16 @@
+# Compile of tb_testI.v was successful.
+# Compile of partI.v was successful.
+# Compile of fAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tBench
+# vsim -gui work.tBench 
+# Start time: 00:08:27 on Jan 21,2024
+# Loading work.tBench
+# Loading work.partI_add
+# Loading work.fAdder
+run -all
+# Testing Begins:
+# Error:           0
+# number of Test Cases: 131072
+# End time: 00:08:56 on Jan 21,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0

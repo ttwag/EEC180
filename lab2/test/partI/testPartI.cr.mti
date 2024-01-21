@@ -1,0 +1,24 @@
+{C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fAdder
+
+Top level modules:
+	fAdder
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module partI
+-- Compiling module partI_add
+
+Top level modules:
+	partI
+	partI_add
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tBench
+
+Top level modules:
+	tBench
+
+} {} {}}
