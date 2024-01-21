@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vmult
+Z0 !s110 1705847752
+!i10b 1
+!s100 F2GBI9B6Ne^FakloVHJ;m3
+I8[`AZK20VcP4=m9YDEHz:1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII
+w1705844294
+8C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1705847752.000000
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmyMultiplier
+R0
+!i10b 1
+!s100 fA_SWh5_WQRLQL8?Hgi_60
+I_SVcg=zF:emRj1bzLDRfF3
+R1
+R2
+w1705847245
+8C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v|
+!i113 1
+R5
+R6
+nmy@multiplier
+vpartII
+!s110 1705846465
+!i10b 1
+!s100 8=Ki>nE]cXM:95:c5zN<S0
+IkBKo0bH6`aNAJ6>NFcFkd1
+R1
+R2
+w1705845259
+8C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partII.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partII.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1705846465.000000
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partII.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partII.v|
+!i113 1
+R5
+R6
+npart@i@i
+vtestbench
+R0
+!i10b 1
+!s100 RVmFigXP<a4F=V0P7aehX0
+I[jjggb69WZ2bS;2_zLT[k0
+R1
+R2
+w1705847747
+8C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v|
+!i113 1
+R5
+R6

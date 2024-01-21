@@ -1,19 +1,21 @@
-module testbench ();
-    reg test[8:0];
-    reg errorCount = 0;
-    wire product[7:0];
-    mult mymodule (.a(test[7:4]), .b(test[3:0]), .product(product[7:0]));
+module testbench;
+    reg [4:0] test;
+    reg [3:0] testProduct;
+    integer errorCount = 0;
+    wire [3:0] product;
+    myMultiplier mymodule (.a(test[3:2]), .b(test[1:0]), .product(product[3:0]));
     
-    initial begin 
-        for (test = 0; test < 2**8; test = test + 1) begin
+    initial begin
+        $display("Test Begins:"); 
+        for (test = 0; test < 2**4; test = test + 1) begin
+            testProduct = test[3:2] * test[1:0];
             #5;
-            if (product[7:0] != test[7:4] * test[3:0]) begin 
-                $display("ERROR: A = %d, B = %d, Product = %d != %d", test[7:4], test[3:0], product[7:0], test[7:0] * test[3:0]);
+            if (product[3:0] == testProduct) begin 
+                $display("ERROR: A = %b, B = %b, Product = %b != %b", test[3:2], test[1:0], testProduct, product[3:0]);
                 errorCount = errorCount + 1;
             end
         end
-
-        $display("Conducted %d Tests", test[8:0]);
+        $display("Conducted %d Tests\n", test);
         $display("%d Error", errorCount);
     end
 endmodule
