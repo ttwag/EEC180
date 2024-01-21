@@ -26,12 +26,10 @@ endmodule
 //=======================================================
 
 module partI_add (
-	input 
-	[7:0] a,b,
-	
+	input cin,
+	input [7:0] a,b,
 	output [7:0] sum,
-	output cout,
-	output overflow
+	output cout, overflow
 ); 
 
 // Carry out
@@ -48,7 +46,7 @@ wire out6;
 fAdder partI_adder0 (
 	.a(a[0]),
 	.b(b[0]),
-	.cin(1'b0),
+	.cin(cin),
 	.sum(sum[0]),
 	.cout(out0)
 );
