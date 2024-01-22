@@ -1,0 +1,22 @@
+{C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/genAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/genAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module genAdder
+
+Top level modules:
+	genAdder
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fAdder
+
+Top level modules:
+	fAdder
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partIII/tb_partIII.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partIII/tb_partIII.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testBench
+
+Top level modules:
+	testBench
+
+} {} {}}
