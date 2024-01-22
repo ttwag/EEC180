@@ -65,3 +65,44 @@ run -all
 # ERROR: Test = 1111, Correct Output = 000, Output = 000
 # Number of Test = 16
 # Error =          16
+# Compile of tb_partI.v was successful.
+# 1 compiles, 1 failed with no errors.
+# Compile of tb_partI.v was successful.
+# Compile of lzd4.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testBench
+# Loading work.lzd4
+restart -f
+run -all
+# Test Begins:
+# ERROR: Test = 0000, Correct Output = 100, Output = 100
+# ERROR: Test = 0001, Correct Output = 011, Output = 011
+# ERROR: Test = 0010, Correct Output = 010, Output = 010
+# ERROR: Test = 0011, Correct Output = 010, Output = 010
+# ERROR: Test = 0100, Correct Output = 001, Output = 001
+# ERROR: Test = 0101, Correct Output = 001, Output = 001
+# ERROR: Test = 0110, Correct Output = 001, Output = 001
+# ERROR: Test = 0111, Correct Output = 001, Output = 001
+# ERROR: Test = 1000, Correct Output = 000, Output = 000
+# ERROR: Test = 1001, Correct Output = 000, Output = 000
+# ERROR: Test = 1010, Correct Output = 000, Output = 000
+# ERROR: Test = 1011, Correct Output = 000, Output = 000
+# ERROR: Test = 1100, Correct Output = 000, Output = 000
+# ERROR: Test = 1101, Correct Output = 000, Output = 000
+# ERROR: Test = 1110, Correct Output = 000, Output = 000
+# ERROR: Test = 1111, Correct Output = 000, Output = 000
+# Number of Test = 16
+# Error =          16
+# Compile of tb_partI.v was successful.
+# Compile of lzd4.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testBench
+# Loading work.lzd4
+run -all
+# Test Begins:
+# Number of Test = 16
+# Error =           0
+# End time: 12:11:39 on Jan 22,2024, Elapsed time: 0:30:48
+# Errors: 0, Warnings: 0

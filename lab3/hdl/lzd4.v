@@ -1,4 +1,4 @@
-module lzd (
+module lzd4 (
     input
         [3:0] lzdIn,
     output

@@ -5,7 +5,7 @@ module testBench;
     integer errorCount = 0;
 
     // Instantiate the lzd module
-    lzd mylzd (.lzdIn(test[3:0]), .lzdOut(testOut[2:0]));
+    lzd4 mylzd (.lzdIn(test[3:0]), .lzdOut(testOut[2:0]));
 
     // Assign the true output through behavioral statements
     assign correctOut[2] = (!test[0] & !test[1] & !test[2] & !test[3]);
@@ -17,7 +17,7 @@ module testBench;
         $display("Test Begins:");
         for (test = 0; test < 2**4; test = test + 1) begin
             #5;
-            if (testOut[2:0] == correctOut[2:0]) begin
+            if (testOut[2:0] != correctOut[2:0]) begin
                 $display("ERROR: Test = %b, Correct Output = %b, Output = %b", test[3:0], correctOut, testOut);
                 errorCount = errorCount + 1;
             end
