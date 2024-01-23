@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vmult
-Z0 !s110 1705853340
+Z0 !s110 1705976050
 !i10b 1
-!s100 F2GBI9B6Ne^FakloVHJ;m3
-I8[`AZK20VcP4=m9YDEHz:1
+!s100 TkM:Q8@oRlW?S8?UORIzR2
+I1Hlk]1gD=RM?@nk>Ak6l80
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII
-w1705847835
+w1705976004
 8C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1705853340.000000
+Z4 !s108 1705976050.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v|
 !i113 1
@@ -32,11 +32,11 @@ Z6 tCvgOpt 0
 vmult4
 R0
 !i10b 1
-!s100 FYEz1ASUMn`WM<l1k1TE_1
-INl0NQ_;^]fDYFZza3Y9]B1
+!s100 H6k]Z7jh:QZ9fX`>DVYmW2
+I[R^=z6MhjPiKfdz>mjV9I1
 R1
 R2
-w1705853210
+w1705975942
 8C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v
 L0 1
@@ -57,7 +57,7 @@ R0
 IH>@Z^J`Tk[8H?XZ`JWMgn3
 R1
 R2
-w1705852635
+w1705853432
 8C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v
 L0 1
@@ -95,7 +95,7 @@ R5
 R6
 npart@i@i
 vtestbench
-R0
+!s110 1705976049
 !i10b 1
 !s100 o>P8ljTOk`Uzaz^dR7e:;0
 IU`b>IKM9b=`WGC@:0h;D]2
@@ -109,7 +109,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1705976049.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partII/tb_partII.v|
 !i113 1

@@ -34,7 +34,7 @@ endmodule
 a + b
 ```
 
-## PartI
+## Part I
 
 **1-Bit Full Adder**
 | a | b | cin | sum | cout |
@@ -74,12 +74,52 @@ After building the 1-bit adder, we could cascade them to build the 8-bit adder.
 
 overflow = (!a[7] & !b[7] & sum[7]) | (a[7] & b[7] & !sum[7])
 
-# Part II
+**ModelSim Transcript**
+```
+# Loading work.tBench
+# Loading work.partI_add
+# Loading work.fAdder
+run -all
+# Testing Begins:
+# Error:           0
+# number of Test Cases: 131072
+```
+
+## Part II
 
 I combined two AND gates with a full adder to create a mult unit, then combine 4 of them to create a mult4 unit, which represents a row in the multiplication circuitry.
 
 I used another module, myMultiplier, to package mult4 in three rows and complete the multiplier circuit.
 
+**ModelSim Transcript**
+```
+# Loading work.testbench
+# Loading work.myMultiplier
+# Loading work.mult4
+# Loading work.mult
+run -all
+# Test Begins:
+# Conducted 256 Tests
+# 
+#           0 Error
+```
+
+## Part III
+
+In partIII of the lab, I created a generic adder by using the generate statement and a genvar, i.
+
+One thing to note is that we need to set the carry in for the first bit as 0, and the carry out of the last bit as the carry out output. All other bits could be properly assigned within the for loop.
+
+**ModelSim Transcript**
+```
+# Loading work.testBench
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test for N =           9
+# Number of Test = 262144
+# Error =           0
+```
 
 ### Encountered Issues
 1. Don't feed 0 for the 1-bit ground 0. In Verilog, a 0 without specifying the bitwidth will be a 32-bit integer, and it causes a compilation problem if the program treats it as a 1-bit 0. 

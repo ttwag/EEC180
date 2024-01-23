@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vfAdder
-Z0 !s110 1705824481
+Z0 !s110 1705975462
 !i10b 1
 !s100 @PL4ImfRhG0QK4;4?U5=U3
 IF7fWG7ClKWU<]a9YAH9Z?3
@@ -23,12 +23,12 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1705824481.000000
+Z4 !s108 1705975462.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 nf@adder
 vpartI
 R0
@@ -37,20 +37,20 @@ R0
 Ic]]15CWXXVSjFjj1C873c2
 R1
 R2
-Z6 w1705824275
-Z7 8C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v
-Z8 FC:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v
+Z7 w1705824275
+Z8 8C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v
+Z9 FC:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v
 L0 6
 R3
 r1
 !s85 0
 31
-Z9 !s108 1705824480.000000
+R4
 Z10 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v|
 Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partI/partI.v|
 !i113 1
-R4
 R5
+R6
 npart@i
 vpartI_add
 R0
@@ -59,40 +59,40 @@ R0
 IO31]Vg4^6^iXA6WZXLHX21
 R1
 R2
-R6
 R7
 R8
+R9
 L0 28
 R3
 r1
 !s85 0
 31
-R9
+R4
 R10
 R11
 !i113 1
-R4
 R5
+R6
 npart@i_add
 vtBench
-!s110 1705824480
+R0
 !i10b 1
 !s100 jmk8iSEaZMH8ekfkfi@@O0
-IDl::`JU]m<VIz3P6GI0gF0
+IFWzHP:0K8L8A8iU:RiS@21
 R1
 R2
-R6
-8C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v
-FC:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v
+R7
+8C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v
 L0 1
 R3
 r1
 !s85 0
 31
-R9
-!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_testI.v|
-!i113 1
 R4
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v|
+!i113 1
 R5
+R6
 nt@bench

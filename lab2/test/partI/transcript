@@ -1,0 +1,47 @@
+# Compile of tb_partII.v was successful.
+# Compile of mult4.v was successful.
+# Compile of myMultiplier.v was successful.
+# Compile of mult.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 18:14:26 on Jan 22,2024
+# Loading work.testbench
+# Loading work.myMultiplier
+# Loading work.mult4
+# Loading work.mult
+vsim -gui work.testbench
+# End time: 18:18:05 on Jan 22,2024, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+# vsim -gui work.testbench 
+# Start time: 18:18:05 on Jan 22,2024
+# Loading work.testbench
+# Loading work.myMultiplier
+# Loading work.mult4
+# Loading work.mult
+run -all
+# Test Begins:
+# Conducted 256 Tests
+# 
+#           0 Error
+quit -sim
+# End time: 18:20:28 on Jan 22,2024, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+project open {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partIII/testPartIII}
+# reading C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project testPartIII
+# Load canceled
+restart -f
+# No Design Loaded!
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 18:22:19 on Jan 22,2024
+# Loading work.testBench
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test for N =           9
+# Number of Test = 262144
+# Error =           0
+# End time: 18:38:12 on Jan 22,2024, Elapsed time: 0:15:53
+# Errors: 0, Warnings: 0
