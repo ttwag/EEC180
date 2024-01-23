@@ -1,0 +1,109 @@
+|partII
+LEDR[0] <= lzd8:mylzd.lzdOut
+LEDR[1] <= lzd8:mylzd.lzdOut
+LEDR[2] <= lzd8:mylzd.lzdOut
+LEDR[3] <= lzd8:mylzd.lzdOut
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+
+
+|partII|lzd8:mylzd
+lzdIn[0] => lzdIn[0].IN1
+lzdIn[1] => lzdIn[1].IN1
+lzdIn[2] => lzdIn[2].IN1
+lzdIn[3] => lzdIn[3].IN1
+lzdIn[4] => lzdIn[4].IN1
+lzdIn[5] => lzdIn[5].IN1
+lzdIn[6] => lzdIn[6].IN1
+lzdIn[7] => lzdIn[7].IN1
+lzdOut[0] <= genAdder:add3.sum
+lzdOut[1] <= genAdder:add3.sum
+lzdOut[2] <= genAdder:add3.sum
+lzdOut[3] <= genAdder:add3.cout
+
+
+|partII|lzd8:mylzd|lzd4:lzd1
+lzdIn[0] => f3.IN1
+lzdIn[0] => f7.IN1
+lzdIn[0] => f1.IN0
+lzdIn[1] => f4.IN1
+lzdIn[1] => f1.IN1
+lzdIn[1] => f6.IN0
+lzdIn[2] => f5.IN0
+lzdIn[2] => f2.IN0
+lzdIn[3] => f2.IN1
+lzdIn[3] => f5.IN1
+lzdIn[3] => f6.IN1
+lzdOut[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|lzd8:mylzd|lzd4:lzd0
+lzdIn[0] => f3.IN1
+lzdIn[0] => f7.IN1
+lzdIn[0] => f1.IN0
+lzdIn[1] => f4.IN1
+lzdIn[1] => f1.IN1
+lzdIn[1] => f6.IN0
+lzdIn[2] => f5.IN0
+lzdIn[2] => f2.IN0
+lzdIn[3] => f2.IN1
+lzdIn[3] => f5.IN1
+lzdIn[3] => f6.IN1
+lzdOut[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|lzd8:mylzd|genAdder:add3
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+sum[0] <= fAdder:genBlock[0].add.sum
+sum[1] <= fAdder:genBlock[1].add.sum
+sum[2] <= fAdder:genBlock[2].add.sum
+cout <= fAdder:genBlock[2].add.cout
+
+
+|partII|lzd8:mylzd|genAdder:add3|fAdder:genBlock[0].add
+a => Add0.IN1
+b => Add0.IN2
+cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|lzd8:mylzd|genAdder:add3|fAdder:genBlock[1].add
+a => Add0.IN1
+b => Add0.IN2
+cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|partII|lzd8:mylzd|genAdder:add3|fAdder:genBlock[2].add
+a => Add0.IN1
+b => Add0.IN2
+cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

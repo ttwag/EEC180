@@ -1,0 +1,16 @@
+# Compile of tb_partI.v was successful.
+# Compile of lzd4.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 23:20:46 on Jan 22,2024
+# Loading work.testBench
+# Loading work.lzd4
+run -all
+# Test Begins:
+# Number of Test = 16
+# Error =           0
+# End time: 23:35:29 on Jan 22,2024, Elapsed time: 0:14:43
+# Errors: 0, Warnings: 0

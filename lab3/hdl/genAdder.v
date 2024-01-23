@@ -11,7 +11,7 @@ module genAdder #(parameter N = 1)
     assign carryIn[0] = 1'b0;
     genvar i;
     generate
-        for (i = 0; i < N; i = i + 1) begin
+        for (i = 0; i < N; i = i + 1) begin : genBlock
             fAdder add(.a(a[i]), .b(b[i]), .cin(carryIn[i]), .sum(sum[i]), .cout(carryIn[i+1]));
         end
     endgenerate

@@ -1,0 +1,7 @@
+cd {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partI}
+# reading C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini
+project open {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/tb_testI/testPartI}
+# Project file C:/Users/Tao Wang/Desktop/EEC180/lab2/test/tb_testI/testPartI.mpf was not found.
+# Unable to open project.
+project open {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partI/testPartI}
+# Loading project testPartI

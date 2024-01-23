@@ -1,0 +1,40 @@
+|partI
+LEDR[0] <= lzd4:mylzd.lzdOut
+LEDR[1] <= lzd4:mylzd.lzdOut
+LEDR[2] <= lzd4:mylzd.lzdOut
+LEDR[3] <= <GND>
+LEDR[4] <= <GND>
+LEDR[5] <= <GND>
+LEDR[6] <= <GND>
+LEDR[7] <= <GND>
+LEDR[8] <= <GND>
+LEDR[9] <= <GND>
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+
+
+|partI|lzd4:mylzd
+lzdIn[0] => f3.IN1
+lzdIn[0] => f7.IN1
+lzdIn[0] => f1.IN0
+lzdIn[1] => f4.IN1
+lzdIn[1] => f1.IN1
+lzdIn[1] => f6.IN0
+lzdIn[2] => f5.IN0
+lzdIn[2] => f2.IN0
+lzdIn[3] => f2.IN1
+lzdIn[3] => f5.IN1
+lzdIn[3] => f6.IN1
+lzdOut[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[1] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+lzdOut[2] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
