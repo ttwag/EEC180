@@ -1,0 +1,3059 @@
+# Compile of tb_partIII.v failed with 14 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 14 errors.
+# Compile of tb_partIII.v failed with 13 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 13 errors.
+# Compile of tb_partIII.v failed with 12 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 12 errors.
+# Compile of tb_partIII.v failed with 11 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 11 errors.
+# Compile of tb_partIII.v failed with 12 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 12 errors.
+# Compile of tb_partIII.v failed with 10 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 10 errors.
+# Compile of tb_partIII.v failed with 12 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 12 errors.
+# Compile of tb_partIII.v failed with 12 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 12 errors.
+# Compile of tb_partIII.v failed with 11 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 11 errors.
+# Compile of tb_partIII.v failed with 5 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.selfTestBench
+# vsim -gui work.selfTestBench 
+# Start time: 20:47:38 on Jan 23,2024
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# ** Error: (vsim-3033) C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v(15): Instantiation of 'fAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /selfTestBench/mylzd8/add3/genBlock[0] File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v
+#         Searched libraries:
+#             C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partIII/work
+# ** Error: (vsim-3033) C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v(15): Instantiation of 'fAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /selfTestBench/mylzd8/add3/genBlock[1] File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v
+#         Searched libraries:
+#             C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partIII/work
+# ** Error: (vsim-3033) C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v(15): Instantiation of 'fAdder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Region: /selfTestBench/mylzd8/add3/genBlock[2] File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v
+#         Searched libraries:
+#             C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partIII/work
+# Error loading design
+# End time: 20:47:38 on Jan 23,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.selfTestBench
+# vsim -gui work.selfTestBench 
+# Start time: 20:48:21 on Jan 23,2024
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test =   1
+# Error =           0
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test = 256
+# Error =           0
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test = 256
+# Error =           0
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful with warnings.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = xxxx, Output = 1000
+# ERROR: Test = 00000001, Correct Output = xxxx, Output = 0111
+# ERROR: Test = 00000010, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000011, Correct Output = xxxx, Output = 0110
+# ERROR: Test = 00000100, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000101, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000110, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00000111, Correct Output = xxxx, Output = 0101
+# ERROR: Test = 00001000, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001001, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001010, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001011, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001100, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001101, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001110, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00001111, Correct Output = xxxx, Output = 0100
+# ERROR: Test = 00010000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00010111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011000, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011001, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011010, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011011, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011100, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011101, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011110, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00011111, Correct Output = xxxx, Output = 0011
+# ERROR: Test = 00100000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00100111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00101111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00110111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111000, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111001, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111010, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111011, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111100, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111101, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111110, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 00111111, Correct Output = xxxx, Output = 0010
+# ERROR: Test = 01000000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01000111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01001111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01010111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01011111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01100111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01101111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01110111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111000, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111001, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111010, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111011, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111100, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111101, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111110, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 01111111, Correct Output = xxxx, Output = 0001
+# ERROR: Test = 10000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 10111111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11000111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11001111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11010111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11011111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11100111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11101111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11110111, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111000, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111001, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111010, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111011, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111100, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111101, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111110, Correct Output = xxxx, Output = 0000
+# ERROR: Test = 11111111, Correct Output = xxxx, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v failed with 1 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = 1000, Output = 1000
+# ERROR: Test = 00000001, Correct Output = 0111, Output = 0111
+# ERROR: Test = 00000010, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000011, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000100, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000101, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000110, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000111, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00001000, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001001, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001010, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001011, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001100, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001101, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001110, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001111, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00010000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00100000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 01000000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 10000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111111, Correct Output = 0000, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test = 256
+# Error =           0
+# Compile of tb_partIII.v failed with 1 errors.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful with warnings.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test = 256
+# Error =           0
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful with warnings.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00001000, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001001, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001010, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001011, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001100, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001101, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001110, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001111, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00011000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00101000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 01001000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 10001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111111, Correct Output = 0000, Output = 0000
+# Number of Test = 256
+# Error =         128
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful with warnings.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = 1000, Output = xx00
+# ERROR: Test = 00000001, Correct Output = 0111, Output = xxxx
+# ERROR: Test = 00000010, Correct Output = 0110, Output = xxx0
+# ERROR: Test = 00000011, Correct Output = 0110, Output = xxx0
+# ERROR: Test = 00000100, Correct Output = 0101, Output = xxxx
+# ERROR: Test = 00000101, Correct Output = 0101, Output = xxxx
+# ERROR: Test = 00000110, Correct Output = 0101, Output = xxxx
+# ERROR: Test = 00000111, Correct Output = 0101, Output = xxxx
+# ERROR: Test = 00001000, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001001, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001010, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001011, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001100, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001101, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001110, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001111, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00010000, Correct Output = 0011, Output = xx11
+# ERROR: Test = 00010001, Correct Output = 0011, Output = xxxx
+# ERROR: Test = 00010010, Correct Output = 0011, Output = xxx1
+# ERROR: Test = 00010011, Correct Output = 0011, Output = xxx1
+# ERROR: Test = 00010100, Correct Output = 0011, Output = xxxx
+# ERROR: Test = 00010101, Correct Output = 0011, Output = xxxx
+# ERROR: Test = 00010110, Correct Output = 0011, Output = xxxx
+# ERROR: Test = 00010111, Correct Output = 0011, Output = xxxx
+# ERROR: Test = 00011000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00100000, Correct Output = 0010, Output = xx10
+# ERROR: Test = 00100001, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00100010, Correct Output = 0010, Output = xxx0
+# ERROR: Test = 00100011, Correct Output = 0010, Output = xxx0
+# ERROR: Test = 00100100, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00100101, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00100110, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00100111, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00101000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110000, Correct Output = 0010, Output = xx10
+# ERROR: Test = 00110001, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00110010, Correct Output = 0010, Output = xxx0
+# ERROR: Test = 00110011, Correct Output = 0010, Output = xxx0
+# ERROR: Test = 00110100, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00110101, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00110110, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00110111, Correct Output = 0010, Output = xxxx
+# ERROR: Test = 00111000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 01000000, Correct Output = 0001, Output = xx01
+# ERROR: Test = 01000001, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01000010, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01000011, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01000100, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01000101, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01000110, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01000111, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01001000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010000, Correct Output = 0001, Output = xx01
+# ERROR: Test = 01010001, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01010010, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01010011, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01010100, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01010101, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01010110, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01010111, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01011000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100000, Correct Output = 0001, Output = xx01
+# ERROR: Test = 01100001, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01100010, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01100011, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01100100, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01100101, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01100110, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01100111, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01101000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110000, Correct Output = 0001, Output = xx01
+# ERROR: Test = 01110001, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01110010, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01110011, Correct Output = 0001, Output = xxx1
+# ERROR: Test = 01110100, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01110101, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01110110, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01110111, Correct Output = 0001, Output = xxxx
+# ERROR: Test = 01111000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 10000000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 10000001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10000010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10000011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10000100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10000101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10000110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10000111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 10010001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10010010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10010011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10010100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10010101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10010110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10010111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 10100001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10100010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10100011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10100100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10100101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10100110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10100111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 10110001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10110010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10110011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 10110100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10110101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10110110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10110111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 10111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 11000001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11000010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11000011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11000100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11000101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11000110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11000111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 11010001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11010010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11010011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11010100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11010101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11010110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11010111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 11100001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11100010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11100011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11100100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11100101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11100110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11100111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110000, Correct Output = 0000, Output = xx00
+# ERROR: Test = 11110001, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11110010, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11110011, Correct Output = 0000, Output = xxx0
+# ERROR: Test = 11110100, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11110101, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11110110, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11110111, Correct Output = 0000, Output = xxxx
+# ERROR: Test = 11111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111111, Correct Output = 0000, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = 1000, Output = 1000
+# ERROR: Test = 00000001, Correct Output = 0111, Output = 0111
+# ERROR: Test = 00000010, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000011, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000100, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000101, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000110, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000111, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00001000, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001001, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001010, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001011, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001100, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001101, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001110, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001111, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00010000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00100000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 01000000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 10000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111111, Correct Output = 0000, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# ERROR: Test = 00000000, Correct Output = 1000, Output = 1000
+# ERROR: Test = 00000001, Correct Output = 0111, Output = 0111
+# ERROR: Test = 00000010, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000011, Correct Output = 0110, Output = 0110
+# ERROR: Test = 00000100, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000101, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000110, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00000111, Correct Output = 0101, Output = 0101
+# ERROR: Test = 00001000, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001001, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001010, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001011, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001100, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001101, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001110, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00001111, Correct Output = 0100, Output = 0100
+# ERROR: Test = 00010000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00010111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011000, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011001, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011010, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011011, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011100, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011101, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011110, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00011111, Correct Output = 0011, Output = 0011
+# ERROR: Test = 00100000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00100111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00101111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00110111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111000, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111001, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111010, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111011, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111100, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111101, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111110, Correct Output = 0010, Output = 0010
+# ERROR: Test = 00111111, Correct Output = 0010, Output = 0010
+# ERROR: Test = 01000000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01000111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01001111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01010111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01011111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01100111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01101111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01110111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111000, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111001, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111010, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111011, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111100, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111101, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111110, Correct Output = 0001, Output = 0001
+# ERROR: Test = 01111111, Correct Output = 0001, Output = 0001
+# ERROR: Test = 10000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 10111111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11000111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11001111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11010111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11011111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11100111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11101111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11110111, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111000, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111001, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111010, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111011, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111100, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111101, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111110, Correct Output = 0000, Output = 0000
+# ERROR: Test = 11111111, Correct Output = 0000, Output = 0000
+# Number of Test = 256
+# Error =         256
+# Compile of tb_partIII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# Loading work.selfTestBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# Test Begins:
+# Number of Test = 256
+# Error =           0
+# End time: 21:08:35 on Jan 23,2024, Elapsed time: 0:20:14
+# Errors: 0, Warnings: 0

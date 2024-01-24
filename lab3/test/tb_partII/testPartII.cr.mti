@@ -1,18 +1,4 @@
-{C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module lzd8
-
-Top level modules:
-	lzd8
-
-} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/fAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/fAdder.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fAdder
-
-Top level modules:
-	fAdder
-
-} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v}
+{C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module genAdder
 
@@ -26,11 +12,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	lzd4
 
-} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partII/tb_partII.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partII/tb_partII.v}
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/fAdder.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/fAdder.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module testBench
+-- Compiling module fAdder
 
 Top level modules:
-	testBench
+	fAdder
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lzd8
+
+Top level modules:
+	lzd8
 
 } {} {}}

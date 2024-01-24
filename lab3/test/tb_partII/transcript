@@ -1,7 +1,42 @@
-cd {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partI}
-# reading C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini
-project open {C:/Users/Tao Wang/Desktop/EEC180/lab2/test/tb_testI/testPartI}
-# Project file C:/Users/Tao Wang/Desktop/EEC180/lab2/test/tb_testI/testPartI.mpf was not found.
-# Unable to open project.
-project open {C:/Users/Tao Wang/Desktop/EEC180/lab3/test/tb_partI/testPartI}
-# Loading project testPartI
+# Compile of tb_partII.v failed with 1 errors.
+# Compile of lzd8.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of tb_partII.v was successful.
+# Compile of lzd8.v was successful.
+# Compile of lzd4.v was successful.
+# Compile of genAdder.v was successful.
+# Compile of fAdder.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 19:58:58 on Jan 23,2024
+# Loading work.testBench
+# Loading work.lzd8
+# Loading work.lzd4
+# Loading work.genAdder
+# Loading work.fAdder
+run -all
+# ERROR: Test = 00100100, Output = 0010
+# ERROR: Test = 10000001, Output = 0000
+# ERROR: Test = 00001001, Output = 0100
+# ERROR: Test = 01100011, Output = 0001
+# ERROR: Test = 00001101, Output = 0100
+# ERROR: Test = 10001101, Output = 0000
+# ERROR: Test = 01100101, Output = 0001
+# ERROR: Test = 00010010, Output = 0011
+# ERROR: Test = 00000001, Output = 0111
+# ERROR: Test = 00001101, Output = 0100
+# ERROR: Test = 01110110, Output = 0001
+# ERROR: Test = 00111101, Output = 0010
+# ERROR: Test = 11101101, Output = 0000
+# ERROR: Test = 10001100, Output = 0000
+# ERROR: Test = 11111001, Output = 0000
+# Number of Test =          15
+quit -sim
+# End time: 20:32:52 on Jan 23,2024, Elapsed time: 0:33:54
+# Errors: 0, Warnings: 0
