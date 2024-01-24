@@ -178,3 +178,23 @@ end
 **Loops**
 * The loop body must have a delay statement.
 
+### Combinational Logic
+* Each ```always``` statement is a boolean function.
+* ```@``` means wait for some time.
+* Every element of the input set must be in the sensitivity list.
+* The combinational output must be assigned in every control path.
+
+
+```
+module blah (
+    input a,b, c,
+    output f,
+    
+    always @(a,b, c) begin
+        ;
+        ;
+        ;
+    end
+endmodule
+)
+```

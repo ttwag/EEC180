@@ -42,6 +42,8 @@ However, we can only use the result of lzd block on bit 0 to 3 when the bit 4 to
 
 lzd [3:0] = lzd1[3:0] + (!SW7 & !SW6 & !SW5 & !SW4) & lzd0[3:0]
 
+Instead of using (!SW7 & !SW6 & !SW5 & !SW4), we could also use lzd1[3] as the flag.
+
 
 
 ```
