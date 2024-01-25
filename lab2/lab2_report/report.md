@@ -1,5 +1,7 @@
 # EEC180 Lab2 Report
 
+![Figure1](./Figure1.png)
+
 ## Pre-Lab
 
 Boolean Equation of a 2-bit Full-Adder
