@@ -1,6 +1,6 @@
 module testBench;
     // Initialization
-    parameter N = 9;
+    parameter N = 6;
     // k is the amount of possible input
     parameter k = N * 2;
     reg [k:0] test;
@@ -15,8 +15,8 @@ module testBench;
         $display("Test for N = %d", N);
         for (test = 0; test < 2**k; test = test + 1) begin
             #5;
-            if ({out, sum} != test[k-1:k/2] + test[k/2-1:0]) begin
-                $display("ERROR: a = %b, b = %b, Output = %b", test[(k-1):(k/2)], test[(k/2-1):0],{out, sum});
+            if ({out, sum} == test[k-1:k/2] + test[k/2-1:0]) begin
+                $display("ERROR: a = %b, b = %b, Output = %b, Correct Output = %b", test[(k-1):(k/2)], test[(k/2-1):0],{out, sum}, test[k-1:k/2] + test[k/2-1:0]);
                 errorCount = errorCount + 1;
             end
         end

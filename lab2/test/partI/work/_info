@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vfAdder
-Z0 !s110 1705975462
+Z0 !s110 1706127378
 !i10b 1
 !s100 @PL4ImfRhG0QK4;4?U5=U3
 IF7fWG7ClKWU<]a9YAH9Z?3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1705975462.000000
+Z4 !s108 1706127378.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/fAdder.v|
 !i113 1
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1706127377.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/tb_partI.v|
 !i113 1

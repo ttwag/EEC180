@@ -1,5 +1,5 @@
 Analysis & Synthesis report for partII
-Sun Jan 21 08:51:15 2024
+Wed Jan 24 12:22:17 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Jan 21 08:51:15 2024       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jan 24 12:22:17 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; partII                                      ;
 ; Top-level Entity Name              ; partII                                      ;
@@ -324,7 +324,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -334,7 +334,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sun Jan 21 08:51:02 2024
+    Info: Processing started: Wed Jan 24 12:22:01 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off partII -c partII
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -347,19 +347,19 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: mult File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab2/hdl/decoder.v
     Info (12023): Found entity 1: decoder File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/decoder.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(6): created implicit net for "a" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 6
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(7): created implicit net for "b" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 7
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(10): created implicit net for "w1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 10
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(11): created implicit net for "w2" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 11
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(12): created implicit net for "w3" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 12
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(13): created implicit net for "w4" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 13
-Warning (10236): Verilog HDL Implicit Net warning at mult.v(17): created implicit net for "w5" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 17
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(9): created implicit net for "a" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 9
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(10): created implicit net for "b" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 10
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(13): created implicit net for "w1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 13
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(14): created implicit net for "w2" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 14
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(15): created implicit net for "w3" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 15
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(16): created implicit net for "w4" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 16
+Warning (10236): Verilog HDL Implicit Net warning at mult.v(20): created implicit net for "w5" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult.v Line: 20
 Warning (12125): Using design file partii.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: partII File: C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partii.v Line: 6
 Info (12127): Elaborating entity "partII" for the top level hierarchy
 Info (12128): Elaborating entity "myMultiplier" for hierarchy "myMultiplier:mult1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partii.v Line: 40
 Info (12128): Elaborating entity "mult4" for hierarchy "myMultiplier:mult1|mult4:a1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/myMultiplier.v Line: 16
-Info (12128): Elaborating entity "mult" for hierarchy "myMultiplier:mult1|mult4:a1|mult:m1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v Line: 16
+Info (12128): Elaborating entity "mult" for hierarchy "myMultiplier:mult1|mult4:a1|mult:m1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/hdl/mult4.v Line: 17
 Info (12128): Elaborating entity "decoder" for hierarchy "decoder:decoder1" File: C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partii.v Line: 45
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX0[7]" is stuck at VCC File: C:/Users/Tao Wang/Desktop/EEC180/lab2/synthesis/partII/partii.v Line: 9
@@ -393,9 +393,9 @@ Info (21057): Implemented 117 device resources after synthesis - the final resou
     Info (21059): Implemented 48 output pins
     Info (21061): Implemented 59 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
-    Info: Peak virtual memory: 4752 megabytes
-    Info: Processing ended: Sun Jan 21 08:51:15 2024
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Peak virtual memory: 4754 megabytes
+    Info: Processing ended: Wed Jan 24 12:22:17 2024
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:22
 
 
