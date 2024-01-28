@@ -198,3 +198,86 @@ module blah (
 endmodule
 )
 ```
+
+### D-Flip Flop
+
+|D|Q|$Q^+$|
+|-|-|-|
+|0|0|0|
+|0|1|0|
+|1|0|1|
+|1|1|1|
+
+```
+// Triggered in rising clock edge with active low asynchronous reset
+// The sensitivity list in this example has synchronous input and asynchronous reset
+
+module DFF
+    (output reg q,
+    input d, clk, reset);
+
+    always@(posedge clk or negedge reset)
+    if (~reset) 
+        q <= 0;
+    else 
+        q <= d;
+endmodule
+```
+We could also model a state machine in Verilog with the high-level state diagram.
+
+```
+
+// A state machine that has 3 states
+
+module (
+    input clk,
+    input rst,
+    input x,
+    output Z
+    );
+
+    // One hot encoding
+    reg state;
+    neg nextstae
+    localparam S2 = 3'd0;
+    localparam S1 = 3'd1;
+    localparam S0 = 3'd2;
+
+    //State Machine
+    always @(posedge clk or posedge rst) begin
+        if (rst)
+            state <= S0;
+        else 
+            state <= nextstate;
+    end
+
+    // State Transition
+    always @(state, X) begin
+        case(state)
+            S0:begin
+            end
+
+            S1:begin
+            end
+
+            S2:begin
+            end
+
+            default
+        endcase
+    end
+endmodule
+```
+
+**Test Bench Clock Generator**
+```
+forever begin
+    #5 clk = 1; #5 clk = 0;
+end 
+```
+
+### Simulation
+* Discrete Time Simulation
+    * Models evaluated and outputs updated every t time units even if input has not changed.
+* Discrete Event Simulation
+    * Only evaluate when input changes.
