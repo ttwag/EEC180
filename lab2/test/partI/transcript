@@ -1,10 +1,6 @@
-# Compile of tb_partI.v was successful.
-# Compile of fAdder.v was successful.
-# Compile of partI.v was successful.
-# 3 compiles, 0 failed with no errors.
 vsim -gui work.tBench
 # vsim -gui work.tBench 
-# Start time: 12:16:28 on Jan 24,2024
+# Start time: 12:12:22 on Jan 31,2024
 # Loading work.tBench
 # Loading work.partI_add
 # Loading work.fAdder
@@ -12,5 +8,6 @@ run -all
 # Testing Begins:
 # Error:           0
 # number of Test Cases: 131072
-# End time: 12:24:57 on Jan 24,2024, Elapsed time: 0:08:29
+# End time: 12:14:57 on Jan 31,2024, Elapsed time: 0:02:35
 # Errors: 0, Warnings: 0
+# Closing project C:/Users/Tao Wang/Desktop/EEC180/lab2/test/partI/testPartI.mpf

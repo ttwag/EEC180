@@ -1,5 +1,5 @@
 Analysis & Synthesis report for partII
-Mon Jan 22 23:32:20 2024
+Wed Jan 31 12:34:33 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jan 22 23:32:20 2024       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jan 31 12:34:33 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; partII                                      ;
 ; Top-level Entity Name              ; partII                                      ;
@@ -304,7 +304,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Mon Jan 22 23:32:05 2024
+    Info: Processing started: Wed Jan 31 12:34:18 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off partII -c partII
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -316,12 +316,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: genAdder File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab3/hdl/fadder.v
     Info (12023): Found entity 1: fAdder File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/fAdder.v Line: 3
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(19): created implicit net for "w1" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 19
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(20): created implicit net for "w2" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 20
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(21): created implicit net for "w3" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 21
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(22): created implicit net for "w4" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 22
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(23): created implicit net for "f1" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at lzd8.v(24): created implicit net for "f2" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 24
 Warning (10236): Verilog HDL Implicit Net warning at lzd4.v(9): created implicit net for "w1" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd4.v Line: 9
 Warning (10236): Verilog HDL Implicit Net warning at lzd4.v(10): created implicit net for "w2" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd4.v Line: 10
 Warning (10236): Verilog HDL Implicit Net warning at lzd4.v(11): created implicit net for "w3" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd4.v Line: 11
@@ -339,7 +333,7 @@ Info (12127): Elaborating entity "partII" for the top level hierarchy
 Warning (10034): Output port "LEDR[9..4]" at partii.v(9) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab3/synthesis/partII/partii.v Line: 9
 Info (12128): Elaborating entity "lzd8" for hierarchy "lzd8:mylzd" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/synthesis/partII/partii.v Line: 28
 Info (12128): Elaborating entity "lzd4" for hierarchy "lzd8:mylzd|lzd4:lzd1" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 14
-Info (12128): Elaborating entity "genAdder" for hierarchy "lzd8:mylzd|genAdder:add3" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 31
+Info (12128): Elaborating entity "genAdder" for hierarchy "lzd8:mylzd|genAdder:add3" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/lzd8.v Line: 21
 Info (12128): Elaborating entity "fAdder" for hierarchy "lzd8:mylzd|genAdder:add3|fAdder:genBlock[0].add" File: C:/Users/Tao Wang/Desktop/EEC180/lab3/hdl/genAdder.v Line: 15
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab3/synthesis/partII/partii.v Line: 9
@@ -358,10 +352,10 @@ Info (21057): Implemented 30 device resources after synthesis - the final resour
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 10 output pins
     Info (21061): Implemented 10 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 4760 megabytes
-    Info: Processing ended: Mon Jan 22 23:32:20 2024
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4752 megabytes
+    Info: Processing ended: Wed Jan 31 12:34:33 2024
     Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Total CPU time (on all processors): 00:00:24
 
 

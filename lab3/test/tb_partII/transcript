@@ -1,9 +1,3 @@
-# Compile of tb_partII.v failed with 1 errors.
-# Compile of lzd8.v was successful.
-# Compile of lzd4.v was successful.
-# Compile of genAdder.v was successful.
-# Compile of fAdder.v was successful.
-# 5 compiles, 1 failed with 1 error.
 # Compile of tb_partII.v was successful.
 # Compile of lzd8.v was successful.
 # Compile of lzd4.v was successful.
@@ -14,7 +8,7 @@ restart -f
 # No Design Loaded!
 vsim -gui work.testBench
 # vsim -gui work.testBench 
-# Start time: 19:58:58 on Jan 23,2024
+# Start time: 10:19:58 on Jan 31,2024
 # Loading work.testBench
 # Loading work.lzd8
 # Loading work.lzd4
@@ -37,6 +31,5 @@ run -all
 # ERROR: Test = 10001100, Output = 0000
 # ERROR: Test = 11111001, Output = 0000
 # Number of Test =          15
-quit -sim
-# End time: 20:32:52 on Jan 23,2024, Elapsed time: 0:33:54
+# End time: 12:08:52 on Jan 31,2024, Elapsed time: 1:48:54
 # Errors: 0, Warnings: 0

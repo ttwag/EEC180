@@ -5,6 +5,7 @@ module lzd8 (
     wire [2:0] lzdSum1;
     wire [2:0] lzdSum0_1;
     wire [2:0] lzdSum0_2;
+    wire flag;
 
     // We need a 3-bit adder
     parameter N = 3;
