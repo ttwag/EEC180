@@ -280,4 +280,13 @@ end
 * Discrete Time Simulation
     * Models evaluated and outputs updated every t time units even if input has not changed.
 * Discrete Event Simulation
+    * Verilog is a discrete event model.
     * Only evaluate when input changes.
+    * Only execute something when an event has occurred at its input.
+    * Events: a value-change scheduled to occur at a given time.
+* **#:** delay a specific amount of time.
+* **@:** delay until an event occurs (ex: posedge or negedge).
+* **wait():** possibly delaying until an event occurs.
+
+### Non-Blocking Assignment
+* **<=**
