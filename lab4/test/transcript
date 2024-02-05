@@ -1,0 +1,233 @@
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v failed with 1 errors.
+# 2 compiles, 2 failed with 5 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v failed with 2 errors.
+# 2 compiles, 2 failed with 6 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v failed with 2 errors.
+# 2 compiles, 2 failed with 6 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v failed with 2 errors.
+# 2 compiles, 2 failed with 6 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_dFlipFlop
+# vsim -gui work.tb_dFlipFlop 
+# Start time: 11:11:43 on Feb 04,2024
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+# ** Error (suppressible): (vsim-3053) C:/Users/Tao Wang/Desktop/EEC180/lab4/test/tb_dFlipFlop.v(4): Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dFlipFlop/FP File: C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/dFlipFlop.v
+# Error loading design
+# End time: 11:11:43 on Feb 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of tb_dFlipFlop.v failed with 3 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of tb_dFlipFlop.v failed with 2 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_dFlipFlop.v failed with 4 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_dFlipFlop
+# vsim -gui work.tb_dFlipFlop 
+# Start time: 11:21:12 on Feb 04,2024
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+# ** Error (suppressible): (vsim-3053) C:/Users/Tao Wang/Desktop/EEC180/lab4/test/tb_dFlipFlop.v(5): Illegal output or inout port connection for port 'Q'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_dFlipFlop/FP File: C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/dFlipFlop.v
+# Error loading design
+# End time: 11:21:12 on Feb 04,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_dFlipFlop
+# vsim -gui work.tb_dFlipFlop 
+# Start time: 11:23:43 on Feb 04,2024
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+add wave -position insertpoint  \
+sim:/tb_dFlipFlop/D \
+sim:/tb_dFlipFlop/clk \
+sim:/tb_dFlipFlop/reset \
+sim:/tb_dFlipFlop/Q
+run
+run
+run
+run
+run
+run
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+run
+run
+run
+run
+force -freeze sim:/tb_dFlipFlop/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/tb_dFlipFlop/D 0 0
+force -freeze sim:/tb_dFlipFlop/D 1 0
+force -freeze sim:/tb_dFlipFlop/reset 1 0
+run
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v failed with 2 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+add wave -position insertpoint  \
+sim:/tb_dFlipFlop/D \
+sim:/tb_dFlipFlop/clk \
+sim:/tb_dFlipFlop/reset \
+sim:/tb_dFlipFlop/Q
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+add wave -position insertpoint  \
+sim:/tb_dFlipFlop/D \
+sim:/tb_dFlipFlop/clk \
+sim:/tb_dFlipFlop/reset \
+sim:/tb_dFlipFlop/Q
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_dFlipFlop
+# End time: 23:07:43 on Feb 04,2024, Elapsed time: 11:44:00
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_dFlipFlop 
+# Start time: 23:07:44 on Feb 04,2024
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+add wave -position insertpoint  \
+sim:/tb_dFlipFlop/D \
+sim:/tb_dFlipFlop/clk \
+sim:/tb_dFlipFlop/reset \
+sim:/tb_dFlipFlop/Q
+run
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+run
+run
+restart -f
+run
+run
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+run
+restart -f
+run
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+restart -f
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+force -freeze sim:/tb_dFlipFlop/D 1 0
+run
+run
+run
+# Compile of tb_dFlipFlop.v failed with 1 errors.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+run
+run
+run
+# Compile of tb_dFlipFlop.v was successful.
+# Compile of dFlipFlop.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_dFlipFlop
+# Loading work.dFlipFlop
+run
+run
+run
+run
+run
