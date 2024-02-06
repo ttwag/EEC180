@@ -290,3 +290,13 @@ end
 
 ### Non-Blocking Assignment
 * **<=**
+* Use blocking assignment (=) in combinational logic.
+* Use non-blocking assignments in sequential logic.
+* Don't mix blocking and non-blocking assignments in an always block.
+
+```
+// Clock - USE A NON-BLOCKING ASSIGNEMENT so that event will be scheduled!
+
+initial #10 clk = 0;
+always @(clk) #10 clk <= ~clk;
+```
