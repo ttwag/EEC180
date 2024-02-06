@@ -238,7 +238,7 @@ module (
 
     // One hot encoding
     reg state;
-    neg nextstae
+    neg nextstate
     localparam S2 = 3'd0;
     localparam S1 = 3'd1;
     localparam S0 = 3'd2;
@@ -277,7 +277,7 @@ end
 ```
 
 ### Simulation
-* Discrete Time Simulation
+* Discrete-Time Simulation
     * Models evaluated and outputs updated every t time units even if input has not changed.
 * Discrete Event Simulation
     * Verilog is a discrete event model.
