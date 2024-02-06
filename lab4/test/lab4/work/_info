@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vseqDetector
+Z0 !s110 1707204214
+!i10b 1
+!s100 AD1]hQdKQecJ[L]Yz]GlW3
+IhM`NI[=3?9DU;UF5___9E0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4
+w1707204145
+8C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1707204214.000000
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+nseq@detector
+vtb_lab4
+R0
+!i10b 1
+!s100 j=oefQV7aA_9dLhG;U:if3
+I]Dkb@d2f`6b;K;2QM@?PM2
+R1
+R2
+w1707204210
+8C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v|
+!i113 1
+R5
+R6
