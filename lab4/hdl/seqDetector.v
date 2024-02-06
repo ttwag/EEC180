@@ -33,74 +33,49 @@ end
 always @(state, in) begin
     case(state)
         S0:begin
-          if (in == 1'b0) begin
-              nextState = S1; 
-              out = 1'b0;
-          end 
-          else begin
-              nextState = S2; 
-              out = 1'b0;
-          end
+          if (in) nextState = S2;
+          else nextState = S1;
+          out = 1'b0;
         end
         S1:begin
-          if (in == 1'b0) begin
-                nextState = S3; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S4; 
-                out = 1'b0;
-            end
+          if (in) nextState = S4;
+          else nextState = S3;
+          out = 1'b0;
         end
         S2:begin
-          if (in == 1'b0) begin
-                nextState = S5; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S6; 
-                out = 1'b0;
-            end
+          if (in) nextState = S6;
+          else nextState = S5;
+          out = 1'b0;
         end
         S3:begin
-          if (in == 1'b0) begin
-                nextState = S7; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S4; 
-                out = 1'b0;
-            end
+          if (in) nextState = S4;
+          else nextState = S7;
+          out = 1'b0;
         end
         S4:begin
-          if (in == 1'b0) begin
-                nextState = S5; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S6; 
-                out = 1'b0;
-            end
+          if (in) nextState = S6;
+          else nextState = S5;
+          out = 1'b0;
         end
         S5:begin
-          if (in == 1'b0) begin
-                nextState = S3; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S4; 
-                out = 1'b1;
-            end
+          if (in) begin
+            nextState = S4;
+            out = 1'b1;
+          end
+          else begin 
+            nextState = S3;
+            out = 1'b0;
+          end
         end
         S6:begin
-          if (in == 1'b0) begin
-                nextState = S5; 
-                out = 1'b0;
-            end 
-            else begin
-                nextState = S7; 
-                out = 1'b1;
-            end
+          if (in) begin
+            nextState = S7;
+            out = 1'b1;
+          end
+          else begin 
+            nextState = S5;
+            out = 1'b0;
+          end
         end
         S7:begin
           nextState = S7;
