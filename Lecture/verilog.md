@@ -300,3 +300,11 @@ end
 initial #10 clk = 0;
 always @(clk) #10 clk <= ~clk;
 ```
+
+
+```
+// Tell the synthesis tool to use the SRAM
+
+/*synthesis ramstyle = "M9K"*/
+```
+    

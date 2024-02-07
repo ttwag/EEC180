@@ -14,7 +14,7 @@ std::vector<int> sequenceDetector(std::vector<int>& input) {
         else if (input[i] == 1 && input[j] == 0 && input[k] == 1) ans[k] = 1;
         else if (input[i] == 1 && input[j] == 1 && input[k] == 0) ans[k] = 0;
         else {
-            ans[k] = 1;
+            std::fill(ans.begin() + k, ans.end(), 1);
             return ans;
         }
         i++, j++, k++;
@@ -24,7 +24,8 @@ std::vector<int> sequenceDetector(std::vector<int>& input) {
 
 int main() {
     std::vector<int> input = {0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1};
-    std::vector<int> output = sequenceDetector(input);
+    std::vector<int> input2 = {0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0};
+    std::vector<int> output = sequenceDetector(input2);
     for (int i = 0; i < output.size(); i++) {
         std::cout << output[i] << " ";
     }
