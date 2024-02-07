@@ -1,13 +1,24 @@
 module lab4_2;
     // N is the bit length of the sequence
     parameter N = 20;
+
+    // Input Sequence
     reg [N-1:0]sequence;
+    
+    // Software Detector's output
     reg [N-1:0]out;
+    
+    // Hardware Detector's input and output
+    reg inH, clk, rst;
+    wire outH;
+
+    seqDetector detectorH(.in(inH), .clk(clk), .rst(rst), .out(outH));
+
+    integer counter;
 
     // The detector function returns the output of the sequence detector
     function [N-1:0] detector(input [N-1:0]in);
         integer i, j, k, b;
-        integer m;
         integer flag;
         begin
             detector = {N{1'b0}};
@@ -33,14 +44,32 @@ module lab4_2;
     endfunction
     
     initial begin
-        sequence = 20'b11110100010100101010;
+        // Initialization
+        clk = 1'b0;
+        inH = 1'b0;
+        rst = 1'b0;
+        counter = 0;
+
+        sequence = 20'b00010101110100101010;
 
         // Make out the output of the sequence detector if N is greater than 2.
         // Be aware that the output of the detector function is from MSB to LSB right to left
         if (N > 2) out = detector(sequence);
         else if (N == 2) out = {2{1'b0}};
         else out = 1'b0;
-        $display("%b", out);
+
+        // Test if the hardware and software detectors get the same result
+        $display("Test Begins");
+        #2 inH = sequence[0];
+        //if (outH == out[0]) 
+        $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[0], outH);
+        for (counter = 1; counter < N; counter = counter + 1) begin
+            #10
+            inH = sequence[counter];
+            //if (outH == out[counter]) 
+            $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[counter], outH);
+        end
+        $display("Test Ends");
     end
-    
+    always@(clk) #5 clk <= ~clk;
 endmodule
