@@ -1,0 +1,172 @@
+# Compile of tb_seqDetector.v failed with 4 errors.
+# Compile of tb_seqDetector.v failed with 2 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v was successful with warnings.
+# Compile of tb_seqDetector.v was successful with warnings.
+# Compile of tb_seqDetector.v was successful with warnings.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_seqDetector.v failed with 2 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v failed with 2 errors.
+# Compile of tb_seqDetector.v failed with 2 errors.
+# Compile of tb_seqDetector.v failed with 3 errors.
+# Compile of tb_seqDetector.v failed with 3 errors.
+# Compile of tb_seqDetector.v failed with 2 errors.
+# Compile of tb_seqDetector.v failed with 1 errors.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_lab4_2.v was successful.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab4_2
+# vsim -gui work.lab4_2 
+# Start time: 18:02:53 on Feb 06,2024
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+# ** Error (suppressible): (vsim-3053) C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v(6): Illegal output or inout port connection for port 'out'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_2/myDetector File: C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_seqDetector.v
+# Error loading design
+# End time: 18:02:54 on Feb 06,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.lab4_2
+# vsim -gui work.lab4_2 
+# Start time: 18:03:46 on Feb 06,2024
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+run
+# xxx
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+run
+# xxx
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+# ** Error: (vsim-3063) C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v(6): Port 'in' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_2/myDetector File: C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_seqDetector.v
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.lab4_2
+# vsim -gui work.lab4_2 
+# Start time: 18:03:46 on Feb 06,2024
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+run
+# xxx
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+# Loading work.tb_seqDetector
+run
+# xxx
+run
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 000
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 100
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 000
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 000
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 100
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+# ** Fatal: (vsim-3373) C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v(34): Range of part-select [0:2] into 'out' [2:0] is reversed.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_2 File: C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v
+# FATAL ERROR while loading design
+run
+# No Design Loaded!
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.lab4_2
+# vsim -gui work.lab4_2 
+# Start time: 18:03:46 on Feb 06,2024
+# Loading work.lab4_2
+run
+# 100
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 00000000000000000000
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.lab4_2
+run
+# 00000000010000101000
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_seqDetector.v was successful.
+# Compile of tb_lab4_2.v was successful.
+# 2 compiles, 0 failed with no errors.

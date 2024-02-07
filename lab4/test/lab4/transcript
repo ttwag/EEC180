@@ -1,15 +1,6 @@
-# Compile of seqDetector.v was successful.
-# Compile of tb_lab4.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of seqDetector.v was successful.
-# Compile of tb_lab4.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of seqDetector.v was successful.
-# Compile of tb_lab4.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -gui work.tb_lab4
 # vsim -gui work.tb_lab4 
-# Start time: 23:42:25 on Feb 05,2024
+# Start time: 09:44:02 on Feb 06,2024
 # Loading work.tb_lab4
 # Loading work.seqDetector
 add wave -position insertpoint  \
@@ -19,15 +10,7 @@ sim:/tb_lab4/rst \
 sim:/tb_lab4/out
 run
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 23:43:20 on Feb 05,2024, Elapsed time: 0:00:55
+quit -sim
+# End time: 17:06:57 on Feb 06,2024, Elapsed time: 7:22:55
 # Errors: 0, Warnings: 0
+quit
