@@ -25,7 +25,8 @@ std::vector<int> sequenceDetector(std::vector<int>& input) {
 int main() {
     std::vector<int> input = {0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1};
     std::vector<int> input2 = {0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0};
-    std::vector<int> output = sequenceDetector(input2);
+    std::vector<int> input3 = {1, 1, 1};
+    std::vector<int> output = sequenceDetector(input);
     for (int i = 0; i < output.size(); i++) {
         std::cout << output[i] << " ";
     }
