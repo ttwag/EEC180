@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vseqDetector
-Z0 !s110 1707205337
+Z0 !s110 1707362304
 !i10b 1
 !s100 ]g6AnOdgZW1^?fNfmI8[P1
 ITFXhG`WO`hn9=54fZkBYo1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1707205337.000000
+Z4 !s108 1707362304.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v|
 !i113 1
@@ -33,11 +33,11 @@ nseq@detector
 vtb_lab4
 R0
 !i10b 1
-!s100 3FWDY_m3V8ge;izK_bg5G1
-IC=P4ioOXhRo8=BzY_Uld@0
+!s100 42h8B@fM^K]IDoIOU?GDG2
+I[=>zRHPoS1N`gSRnBjR^X1
 R1
 R2
-w1707204368
+w1707362300
 8C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4/tb_lab4.v
 L0 1

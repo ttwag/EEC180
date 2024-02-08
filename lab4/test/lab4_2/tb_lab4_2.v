@@ -14,7 +14,7 @@ module lab4_2;
 
     seqDetector detectorH(.in(inH), .clk(clk), .rst(rst), .out(outH));
 
-    integer counter;
+    integer counter, error;
 
     // The detector function returns the output of the sequence detector
     function [N-1:0] detector(input [N-1:0]in);
@@ -49,7 +49,9 @@ module lab4_2;
         inH = 1'b0;
         rst = 1'b0;
         counter = 0;
+        error = 0;
 
+        //sequence = 20'b00010100010100101010;
         sequence = 20'b00010101110100101010;
 
         // Make out the output of the sequence detector if N is greater than 2.
@@ -61,15 +63,23 @@ module lab4_2;
         // Test if the hardware and software detectors get the same result
         $display("Test Begins");
         #2 inH = sequence[0];
-        //if (outH == out[0]) 
-        $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[0], outH);
+        #0;
+        if (outH != out[0]) begin
+            $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[0], outH);
+            error = error + 1;
+        end
         for (counter = 1; counter < N; counter = counter + 1) begin
             #10
             inH = sequence[counter];
-            //if (outH == out[counter]) 
-            $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[counter], outH);
+            //@(posedge clk);
+            #0;
+            if (outH != out[counter]) begin
+                $display("Error Input %d: Correct Output=%b, Output=%b", counter + 1, out[counter], outH);
+                error = error + 1;
+            end
         end
         $display("Test Ends");
+        $display("Number of Error: %d", error);
     end
     always@(clk) #5 clk <= ~clk;
 endmodule

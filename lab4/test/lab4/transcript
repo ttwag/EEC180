@@ -1,16 +1,50 @@
+# Compile of seqDetector.v was successful.
+# Compile of tb_lab4.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
 vsim -gui work.tb_lab4
 # vsim -gui work.tb_lab4 
-# Start time: 09:44:02 on Feb 06,2024
+# Start time: 19:16:58 on Feb 07,2024
 # Loading work.tb_lab4
 # Loading work.seqDetector
-add wave -position insertpoint  \
-sim:/tb_lab4/in \
-sim:/tb_lab4/clk \
-sim:/tb_lab4/rst \
-sim:/tb_lab4/out
 run
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
 run
-quit -sim
-# End time: 17:06:57 on Feb 06,2024, Elapsed time: 7:22:55
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# Compile of seqDetector.v was successful.
+# Compile of tb_lab4.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_lab4
+# Loading work.seqDetector
+run
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# End time: 19:18:52 on Feb 07,2024, Elapsed time: 0:01:54
 # Errors: 0, Warnings: 0
-quit
