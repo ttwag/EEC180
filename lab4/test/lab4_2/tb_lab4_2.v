@@ -12,7 +12,8 @@ module lab4_2;
     reg inH, clk, rst;
     wire outH;
 
-    seqDetector detectorH(.in(inH), .clk(clk), .rst(rst), .out(outH));
+    //seqDetector detectorH(.in(inH), .clk(clk), .rst(rst), .out(outH));
+    mealy myMealy (.x(inH), .clk(clk), .rst_n(rst), .z(outH));
 
     integer counter, error;
 
@@ -47,10 +48,11 @@ module lab4_2;
         // Initialization
         clk = 1'b0;
         inH = 1'b0;
-        rst = 1'b0;
+        rst = 1'b1;
         counter = 0;
         error = 0;
 
+        // Input Sequence
         //sequence = 20'b00010100010100101010;
         sequence = 20'b00010101110100101010;
 
@@ -69,7 +71,7 @@ module lab4_2;
             error = error + 1;
         end
         for (counter = 1; counter < N; counter = counter + 1) begin
-            #10
+            #10;
             inH = sequence[counter];
             //@(posedge clk);
             #0;

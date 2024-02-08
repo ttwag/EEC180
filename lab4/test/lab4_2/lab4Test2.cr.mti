@@ -1,4 +1,18 @@
-{C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v}
+{C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mealy
+
+Top level modules:
+	mealy
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab4_2
+
+Top level modules:
+	lab4_2
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/seqDetector.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module seqDetector
 

@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vlab4_2
-Z0 !s110 1707366545
+Z0 !s110 1707367729
 !i10b 1
-!s100 =RTCV=gjQBOg]PIn[?BhB0
-IcNheP[<AYJ=SZH?G6Ll3H1
+!s100 fzhPm^4K=KKUj?_4;:4=Y2
+IPT54<o;CadJzk9Tk:BSM71
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2
-w1707366542
+w1707367489
 8C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v
 L0 1
@@ -23,12 +23,33 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1707366545.000000
+Z4 !s108 1707367729.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab4/test/lab4_2/tb_lab4_2.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
+vmealy
+R0
+!i10b 1
+!s100 Fe>ZY`67E467^zSF1`f700
+I8AX@o=>:IC?Z[UmW7kjXj2
+R1
+R2
+w1707367367
+8C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v
+FC:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab4/hdl/mealy.v|
+!i113 1
+R5
+R6
 vseqDetector
 R0
 !i10b 1
