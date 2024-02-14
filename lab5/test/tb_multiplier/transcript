@@ -1,0 +1,220 @@
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_multControl.v failed with 1 errors.
+# Compile of multControl.v failed with 3 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_multControl
+# vsim -gui work.tb_multControl 
+# Start time: 12:01:09 on Feb 14,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+# ** Warning: (vsim-3017) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_multiplier/tb_multControl.v(6): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multControl/multiplier File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v
+# ** Warning: (vsim-3722) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_multiplier/tb_multControl.v(6): [TFMPC] - Missing connection for port 'Product'.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_multControl
+# End time: 12:02:23 on Feb 14,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_multControl 
+# Start time: 12:02:23 on Feb 14,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+# ** Error (suppressible): (vsim-3053) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_multiplier/tb_multControl.v(7): Illegal output or inout port connection for port 'Product'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multControl/multiplier File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v
+# ** Warning: (vsim-3015) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_multiplier/tb_multControl.v(7): [PCDPC] - Port size (18) does not match connection size (19) for port 'Product'. The port definition is at: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multControl/multiplier File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v
+# Error loading design
+# End time: 12:02:24 on Feb 14,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_multControl
+# vsim -gui work.tb_multControl 
+# Start time: 12:02:54 on Feb 14,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+# ** Warning: (vsim-3015) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_multiplier/tb_multControl.v(7): [PCDPC] - Port size (18) does not match connection size (1) for port 'Product'. The port definition is at: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_multControl/multiplier File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_multControl
+# End time: 12:03:23 on Feb 14,2024, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_multControl 
+# Start time: 12:03:23 on Feb 14,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+add wave -position insertpoint  \
+sim:/tb_multControl/clk \
+sim:/tb_multControl/Resetn \
+sim:/tb_multControl/Start \
+sim:/tb_multControl/Mplier \
+sim:/tb_multControl/Mcand \
+sim:/tb_multControl/Product \
+sim:/tb_multControl/Done
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb_multControl/multiplier/count
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+add wave -position insertpoint  \
+sim:/tb_multControl/multiplier/state
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
