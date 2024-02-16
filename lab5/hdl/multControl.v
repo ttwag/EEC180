@@ -1,7 +1,7 @@
 module multControl (
     input Start, clk, Resetn,
     input [7:0] Mplier, Mcand,
-    output Done,
+    output Finish,
     output reg signed [17:0] Product
 );
 
@@ -13,7 +13,11 @@ module multControl (
     localparam S1 = 2'b00;
     localparam S2 = 2'b01;
     localparam S3 = 2'b10;
+
+    // Control Initialization
+    wire Done;
     
+
     // Data Initialization
     reg signed [16:0] C, CompC;
     reg signed [17:0] lastProduct;
@@ -23,7 +27,8 @@ module multControl (
         if (Resetn) state <= S1;
         else begin
             case(state)
-                S1:begin                    state <= nextState;
+                S1:begin                
+                    state <= nextState;
                 end
                 S2:begin
                     state <= nextState;
@@ -59,6 +64,7 @@ module multControl (
     end
     
     assign Done = count[2] && count[1] && count[0];
+    assign Finish = (state == S1) & Done;
 
     // Combinational Logic
     always@(*) begin

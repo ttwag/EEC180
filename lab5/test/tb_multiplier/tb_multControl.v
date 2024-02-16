@@ -2,9 +2,9 @@ module tb_multControl;
     reg clk, Resetn, Start;
     reg signed [7:0] Mplier, Mcand;
     wire [17:0] Product;
-    wire Done;
+    wire Finish;
 
-    multControl multiplier(.Start(Start), .clk(clk), .Resetn(Resetn), .Mplier(Mplier), .Mcand(Mcand), .Done(Done), .Product(Product));
+    multControl multiplier(.Start(Start), .clk(clk), .Resetn(Resetn), .Mplier(Mplier), .Mcand(Mcand), .Finish(Finish), .Product(Product));
 
     initial begin
         clk = 1'b0;
@@ -26,7 +26,8 @@ module tb_multControl;
     end
 
     always@(Product) begin
-        $display("Product = %b", Product[17:0]);
+        if (Finish) $display("Final Product = %b", Product[16:1]);
+        else $display("Product = %b", Product[17:0]);
     end
 
 endmodule
