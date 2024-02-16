@@ -395,3 +395,328 @@ run
 # Final Product = 00000000000000000
 # Current Product = 000000000111111110
 run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000011001100
+# Current Product = 000000000001100110
+# Current Product = 000000000000110011
+# Current Product = 000000000000011001
+# Current Product = 000000000000001100
+# Current Product = 000000000000000110
+run
+run
+# Current Product = 000000000000000011
+run
+run
+# Final Product = 00000000000000000
+run
+run
+run
+run
+# Final Product = 00000000000000000
+# Current Product = 000000000011001100
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Input = 01100110 * 00110011
+# Current Product = 000000000011001100
+run
+run
+# Current Product = 000000000001100110
+run
+run
+run
+run
+# Current Product = 000000000000110011
+run
+run
+# Current Product = 000000000000011001
+run
+run
+run
+run
+# Current Product = 000000000000001100
+run
+run
+# Current Product = 000000000000000110
+run
+run
+run
+run
+# Current Product = 000000000000000011
+run
+run
+# Final Product = 00000000000000000
+run
+run
+run
+run
+# Final Product = 00000000000000000
+# Current Product = 000000000011001100
+run
+add wave -position insertpoint  \
+sim:/tb_multControl/multiplier/CompC
+add wave -position insertpoint  \
+sim:/tb_multControl/multiplier/C
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Input = 01100110 * 00110011
+# Current Product = 000000000011001100
+run
+run
+# Current Product = 000000000001100110
+run
+run
+run
+run
+# Current Product = 000000000000110011
+run
+run
+# Current Product = 000000000000011001
+run
+run
+run
+run
+# Current Product = 000000000000001100
+# WARNING: No extended dataflow license exists
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Input = 01100110 * 00110011
+# Current Product = 000000000011001100
+run
+run
+# Current Product = 000000000001100110
+run
+run
+# Current Product = 111001101001100110
+run
+run
+# Current Product = 111100110100110011
+run
+run
+# Current Product = 111110011010011001
+run
+run
+# Current Product = 000100110010011001
+run
+run
+# Current Product = 000010011001001100
+run
+run
+# Current Product = 000001001100100110
+run
+run
+# Current Product = 111010110100100110
+run
+run
+# Current Product = 111101011010010011
+run
+run
+# Final Product = 11111010110100100
+run
+run
+# Final Product = 00010100010100100
+run
+run
+# Final Product = 00001010001010010
+# Current Product = 000000000011001100
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000011001100
+# Input = 01100110 * 00110011
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000011001100
+run
+# Input = 01100110 * 00110011
+run
+# Current Product = 000000000001100110
+run
+run
+# Current Product = 111001101001100110
+run
+run
+# Current Product = 111100110100110011
+run
+run
+# Current Product = 111110011010011001
+run
+run
+# Current Product = 000100110010011001
+run
+run
+# Current Product = 000010011001001100
+run
+run
+# Current Product = 000001001100100110
+run
+run
+# Current Product = 111010110100100110
+run
+run
+# Current Product = 111101011010010011
+run
+run
+# Final Product = 11111010110100100
+run
+run
+# Final Product = 00010100010100100
+run
+run
+# Final Product = 00001010001010010
+run
+run
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000011001100
+run
+# Input = 01100110 * 00110011
+run
+# Current Product = 000000000001100110
+run
+run
+# Current Product = 111001101001100110
+run
+run
+# Current Product = 111100110100110011
+run
+run
+# Current Product = 111110011010011001
+run
+run
+# Current Product = 000100110010011001
+run
+run
+# Current Product = 000010011001001100
+run
+run
+# Current Product = 000001001100100110
+run
+run
+# Current Product = 111010110100100110
+run
+run
+# Current Product = 111101011010010011
+run
+run
+# Final Product = 11111010110100100
+run
+run
+# Final Product = 00010100010100100
+run
+run
+# Final Product = 00001010001010010
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011001100
+run
+# Input = 01100110 * 00110011
+run
+# Product = 000000000001100110
+run
+run
+# Product = 111001101001100110
+run
+run
+# Product = 111100110100110011
+run
+run
+# Product = 111110011010011001
+run
+run
+# Product = 000100110010011001
+run
+run
+# Product = 000010011001001100
+run
+run
+# Product = 000001001100100110
+run
+run
+# Product = 111010110100100110
+run
+run
+# Product = 111101011010010011
+run
+run
+# Product = 111110101101001001
+run
+run
+# Product = 000101000101001001
+run
+run
+# Product = 000010100010100100
+run
+run
+run
+run
+run
+run

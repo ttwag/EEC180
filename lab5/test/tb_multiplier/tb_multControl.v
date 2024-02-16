@@ -14,18 +14,19 @@ module tb_multControl;
     initial begin
         Resetn = 1'b0;
         Start = 1'b0;
-        Mplier = 8'b11111111;
-        Mcand = 8'b11111111;
+        Mplier = 8'b01100110;
+        Mcand = 8'b00110011;
         
         #1 Resetn = 1'b1;
         #1 Resetn = 1'b0;
 
         #2 Start = 1'b1;
+        #3 Start = 1'b0;
+        $display("Input = %b * %b", Mplier, Mcand);
     end
 
     always@(Product) begin
-        if (Done) $display("Final Product = %b", Product[17:1]);
-        else $display("Current Product = %b", Product[17:0]);
+        $display("Product = %b", Product[17:0]);
     end
 
 endmodule

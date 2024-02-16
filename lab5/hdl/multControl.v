@@ -15,7 +15,7 @@ module multControl (
     localparam S3 = 2'b10;
     
     // Data Initialization
-    reg signed [7:0] C, CompC;
+    reg signed [16:0] C, CompC;
     reg signed [17:0] lastProduct;
 
     // Sequential Logic
@@ -23,8 +23,7 @@ module multControl (
         if (Resetn) state <= S1;
         else begin
             case(state)
-                S1:begin
-                    state <= nextState;
+                S1:begin                    state <= nextState;
                 end
                 S2:begin
                     state <= nextState;
