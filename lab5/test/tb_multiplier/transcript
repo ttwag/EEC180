@@ -218,3 +218,180 @@ run
 # 
 # 
 run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000111111110
+run
+run
+run
+run
+# Current Product = 000000000011111111
+run
+run
+# Current Product = 000000000001111111
+run
+run
+# Current Product = 000000000000111111
+run
+run
+# Current Product = 000000000000011111
+run
+run
+# Current Product = 000000000000001111
+run
+run
+# Current Product = 000000000000000111
+run
+run
+# Final Product = 00000000000000001
+run
+run
+# Final Product = 00000000000000000
+# Current Product = 000000000111111110
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current Product = 000000000111111110
+# Current Product = 000000000011111111
+# Current Product = 000000000001111111
+# Current Product = 000000000000111111
+# Current Product = 000000000000011111
+# Current Product = 000000000000001111
+# Current Product = 000000000000000111
+run
+# Final Product = 00000000000000001
+run
+run
+# Final Product = 00000000000000000
+# Current Product = 000000000111111110
+run
