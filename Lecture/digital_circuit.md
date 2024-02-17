@@ -26,3 +26,7 @@ Why do we care?
 **Switch Network**
 * Uses switches to route input to output for the boolean function.
 * Susceptible to input noise.
+
+### Fanout
+* Clocks, Resets, inputs and other global signals can fanout to 1000's inputs
+* Delay will be significant.
