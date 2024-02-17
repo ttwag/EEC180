@@ -9,21 +9,21 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/19.1
 vboothMult
-!s110 1708142295
+Z0 !s110 1708144865
 !i10b 1
-!s100 IM`8alIKNE?9`:f5oc[i>2
-I0fnklC8PXQC@UR;9oh7dJ1
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix
-w1708141292
+!s100 m]Sfge]]f_RIGFKkMgUc@2
+I6boWX;C8b8neQEUGJ?IX51
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix
+w1708144806
 8C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
 L0 1
-Z2 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z3 !s108 1708142294.000000
+!s108 1708144865.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v|
 !i113 1
@@ -31,21 +31,21 @@ Z4 o-work work
 Z5 tCvgOpt 0
 nbooth@mult
 vtb_booth
-!s110 1708142294
+R0
 !i10b 1
 !s100 `md[43I;]kKCRGG9:bJbc1
 I@eC<RhIFBTn<mSIPUB4NO2
-R0
 R1
+R2
 w1708142289
 8C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v
 FC:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v
 L0 1
-R2
+R3
 r1
 !s85 0
 31
-R3
+!s108 1708144864.000000
 !s107 C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v|
 !i113 1

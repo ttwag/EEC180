@@ -40,7 +40,8 @@ module boothMult (
                         Product <= {9'b000000000, Mplier, 1'b0};
                         count <= 3'b000;
                         C = {Mcand[7], Mcand, 9'b000000000};
-                        CompC = {~Mcand[7], (~Mcand) + 8'b00000001, 9'b000000000};
+                        CompC = {1'b0, (~Mcand) + 8'b00000001, 9'b000000000};
+                        if (CompC[16]) CompC[17] = 1'b1;
                     end
                 end           
                 S2:begin
