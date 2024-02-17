@@ -1,0 +1,444 @@
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth
+# vsim -gui work.tb_booth 
+# Start time: 19:34:50 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+# ** Error: (vsim-3063) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(10): Port 'Clock' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_booth/UUT File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
+# ** Warning: (vsim-3015) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(10): [PCDPC] - Port size (18) does not match connection size (16) for port 'Product'. The port definition is at: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_booth/UUT File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
+# Error loading design
+# End time: 19:34:51 on Feb 16,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.tb_booth
+# vsim -gui work.tb_booth 
+# Start time: 19:39:30 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+# ** Error: (vsim-3063) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(10): Port 'Clock' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_booth/UUT File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
+# ** Error: (vsim-3063) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(10): Port 'Product' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_booth/UUT File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
+# Error loading design
+# End time: 19:39:30 on Feb 16,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim -gui work.tb_booth
+# vsim -gui work.tb_booth 
+# Start time: 19:40:07 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+# ** Warning: (vsim-3015) C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(10): [PCDPC] - Port size (1) does not match connection size (16) for port 'FProduct'. The port definition is at: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_booth/UUT File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_booth
+# End time: 19:41:46 on Feb 16,2024, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_booth 
+# Start time: 19:41:46 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+# ** Warning: (vsim-7) Failed to open readmem file "testvecs" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v(20)
+#    Time: 80 ps  Iteration: 0  Instance: /tb_booth
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+run
+run
+run
+run
+run
+restart -f
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vsim -gui work.tb_booth
+# End time: 19:46:09 on Feb 16,2024, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb_booth 
+# Start time: 19:46:09 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb_booth/n \
+sim:/tb_booth/num_vectors \
+sim:/tb_booth/Clock \
+sim:/tb_booth/Resetn \
+sim:/tb_booth/Start \
+sim:/tb_booth/Finish \
+sim:/tb_booth/Mplier \
+sim:/tb_booth/Mcand \
+sim:/tb_booth/Product \
+sim:/tb_booth/vectors \
+sim:/tb_booth/i
+vsim -gui work.tb_booth
+# End time: 19:46:36 on Feb 16,2024, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth 
+# Start time: 19:46:36 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+add wave -position insertpoint  \
+sim:/tb_booth/n \
+sim:/tb_booth/num_vectors \
+sim:/tb_booth/Clock \
+sim:/tb_booth/Resetn \
+sim:/tb_booth/Start \
+sim:/tb_booth/Finish \
+sim:/tb_booth/Mplier \
+sim:/tb_booth/Mcand \
+sim:/tb_booth/Product \
+sim:/tb_booth/vectors \
+sim:/tb_booth/i
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -gui work.tb_booth
+# End time: 19:51:50 on Feb 16,2024, Elapsed time: 0:05:14
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth 
+# Start time: 19:51:50 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+add wave -position insertpoint  \
+sim:/tb_booth/Start \
+sim:/tb_booth/Finish \
+sim:/tb_booth/Mplier \
+sim:/tb_booth/Mcand \
+sim:/tb_booth/Product
+add wave -position insertpoint  \
+sim:/tb_booth/Clock
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb_booth/vectors
+vsim -gui work.tb_booth
+# End time: 19:57:03 on Feb 16,2024, Elapsed time: 0:05:13
+# Errors: 21, Warnings: 1
+# vsim -gui work.tb_booth 
+# Start time: 19:57:03 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+run
+run
+run
+run
+vsim -gui work.tb_booth
+# End time: 19:57:27 on Feb 16,2024, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_booth 
+# Start time: 19:57:27 on Feb 16,2024
+# Loading work.tb_booth
+# Loading work.boothMult
+add wave -position insertpoint  \
+sim:/tb_booth/Clock \
+sim:/tb_booth/Resetn \
+sim:/tb_booth/Start \
+sim:/tb_booth/Finish \
+sim:/tb_booth/Mplier \
+sim:/tb_booth/Mcand \
+sim:/tb_booth/Product \
+sim:/tb_booth/vectors
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_booth.v was successful.
+# Compile of boothMult.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_booth
+# Loading work.boothMult
+run
+run
+run
+run
+run
+run
+run
+# Mplier=66, Mcand=33, Product=1452
+run
+run
+run
+run
+run
+# Mplier=a6, Mcand=66, Product=dc24
+run
+run
+run
+run
+run
+run
+# Mplier=6b, Mcand=8e, Product=d05a
+run
+run
+run
+run
+run
+# Mplier=cc, Mcand=99, Product=14ec
+run
+run
+run
+run
+# Mplier=80, Mcand=80, Product=4000
+run
+run
+run
+run
+# Mplier=ff, Mcand=ff, Product=0001
+run
+run
+run
+run
+# Mplier=00, Mcand=55, Product=0000
+run
+run
+run
+run
+# Mplier=7f, Mcand=00, Product=ff00
+run
+run
+run
+run
+run
+run
+run
+run
+run

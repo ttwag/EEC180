@@ -896,3 +896,787 @@ run
 run
 run
 run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000101001100
+run
+# Input = 10100110 * 01100110
+run
+# Product = 000000000010100110
+run
+run
+# Product = 110011010010100110
+run
+run
+# Product = 111001101001010011
+run
+run
+# Product = 111100110100101001
+run
+run
+# Product = 001001100100101001
+run
+run
+# Product = 000100110010010100
+run
+run
+# Product = 000010011001001010
+run
+run
+# Product = 110101101001001010
+run
+run
+# Product = 111010110100100101
+run
+run
+# Product = 000111100100100101
+run
+run
+# Product = 000011110010010010
+run
+run
+# Product = 110111000010010010
+run
+run
+# Final Product = 1101110000100100
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+run
+# Input = 01101011 * 10001110
+run
+# Product = 001110010011010110
+run
+run
+# Product = 000111001001101011
+run
+run
+# Product = 000011100100110101
+run
+run
+# Product = 110101010100110101
+run
+run
+# Product = 111010101010011010
+run
+run
+# Product = 001000111010011010
+run
+run
+# Product = 000100011101001101
+run
+run
+# Product = 110110001101001101
+run
+run
+# Product = 111011000110100110
+run
+run
+# Product = 001001010110100110
+run
+run
+# Product = 000100101011010011
+run
+run
+# Product = 000010010101101001
+run
+run
+# Product = 110100000101101001
+run
+run
+# Final Product = 1101000001011010
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000110011000
+run
+# Input = 11001100 * 10011001
+run
+# Product = 000000000011001100
+run
+run
+# Product = 000000000001100110
+run
+run
+# Product = 001100111001100110
+run
+run
+# Product = 000110011100110011
+run
+run
+# Product = 000011001110011001
+run
+run
+# Product = 110110010110011001
+run
+run
+# Product = 111011001011001100
+run
+run
+# Product = 111101100101100110
+run
+run
+# Product = 001010011101100110
+run
+run
+# Product = 000101001110110011
+run
+run
+# Final Product = 0001010011101100
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000100000000
+run
+# Input = 10000000 * 10000000
+run
+# Product = 000000000010000000
+
+run
+run
+# Product = 000000000001000000
+run
+run
+# Product = 000000000000100000
+run
+run
+# Product = 000000000000010000
+run
+run
+# Product = 000000000000001000
+run
+run
+# Product = 000000000000000100
+run
+
+run
+# Product = 000000000000000010
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 110000000000000010
+run
+run
+# Final Product = 1100000000000000
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 010000000000000010
+run
+run
+# Final Product = 0100000000000000
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000111111110
+# Input = 11111111 * 11111111
+# Product = 000000001111111110
+# Product = 000000000111111111
+# Product = 000000000011111111
+# Product = 000000000001111111
+# Product = 000000000000111111
+# Product = 000000000000011111
+# Product = 000000000000001111
+# Product = 000000000000000111
+run
+# Final Product = 0000000000000001
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000000000000
+# Input = 00000000 * 01010101
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000000000000
+# Input = 00000000 * 01010101
+run
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000000000000
+run
+# Input = 00000000 * 01010101
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011111110
+# Input = 01111111 * 01111111
+# Product = 010000001011111110
+# Product = 001000000101111111
+# Product = 000100000010111111
+# Product = 000010000001011111
+# Product = 000001000000101111
+# Product = 000000100000010111
+# Product = 000000010000001011
+# Product = 000000001000000101
+run
+# Product = 010000000000000101
+# Final Product = 0100000000000001
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+run
+# Product = 001111000110100110
+# Product = 011101010110100110
+# Product = 001110101011010011
+# Product = 000111010101101001
+# Product = 011001000101101001
+# Final Product = 0110010001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 110101010100110101
+# Product = 111010101010011010
+# Product = 001000111010011010
+# Product = 000100011101001101
+# Product = 110110001101001101
+run
+# Product = 111011000110100110
+# Product = 001001010110100110
+# Product = 000100101011010011
+# Product = 000010010101101001
+# Product = 110100000101101001
+# Final Product = 1101000001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 110000000000000010
+
+run
+# Final Product = 1100000000000000
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 010000000000000010
+run
+# Final Product = 0100000000000000
+vsim -gui work.tb_multControl
+# End time: 17:38:32 on Feb 16,2024, Elapsed time: 53:35:09
+# Errors: 1, Warnings: 2
+# vsim -gui work.tb_multControl 
+# Start time: 17:38:32 on Feb 16,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 010000000000000010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+restart -f
+add wave -position insertpoint  \
+sim:/tb_multControl/clk \
+sim:/tb_multControl/Resetn \
+sim:/tb_multControl/Start \
+sim:/tb_multControl/Mplier \
+sim:/tb_multControl/Mcand \
+sim:/tb_multControl/Product \
+sim:/tb_multControl/Finish
+run
+# Product = 000000000100000000
+# Input = 10000000 * 10000000
+# Product = 000000000010000000
+# Product = 000000000001000000
+# Product = 000000000000100000
+# Product = 000000000000010000
+# Product = 000000000000001000
+# Product = 000000000000000100
+# Product = 000000000000000010
+# Product = 010000000000000010
+run
+# Final Product = 0100000000000000
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+run
+# Product = 001111000110100110
+# Product = 011101010110100110
+# Product = 001110101011010011
+# Product = 000111010101101001
+# Product = 011001000101101001
+# Final Product = 0110010001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+run
+# Product = 001111000110100110
+# Product = 011101010110100110
+# Product = 001110101011010011
+# Product = 000111010101101001
+# Product = 011001000101101001
+# Final Product = 0110010001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+run
+# Product = 001111000110100110
+# Product = 011101010110100110
+# Product = 001110101011010011
+# Product = 000111010101101001
+# Product = 011001000101101001
+# Final Product = 0110010001011010
+run
+# Compile of tb_multControl.v failed with 1 errors.
+# Compile of multControl.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_multControl
+# End time: 18:16:00 on Feb 16,2024, Elapsed time: 0:37:28
+# Errors: 0, Warnings: 0
+# vsim -gui work.tb_multControl 
+# Start time: 18:16:00 on Feb 16,2024
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+run
+restart -f
+run
+run
+add wave -position insertpoint  \
+sim:/tb_multControl/Mplier \
+sim:/tb_multControl/Mcand
+run
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+add wave -position insertpoint  \
+sim:/tb_multControl/multiplier/C \
+sim:/tb_multControl/multiplier/CompC
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+run
+# Product = 001111000110100110
+# Product = 011101010110100110
+# Product = 001110101011010011
+# Product = 000111010101101001
+# Product = 011001000101101001
+# Final Product = 0110010001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 010101010100110101
+# Product = 001010101010011010
+# Product = 011000111010011010
+# Product = 001100011101001101
+# Product = 011110001101001101
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 110101010100110101
+# Product = 111010101010011010
+# Product = 001000111010011010
+# Product = 000100011101001101
+# Product = 110110001101001101
+run
+# Product = 111011000110100110
+# Product = 001001010110100110
+# Product = 000100101011010011
+# Product = 000010010101101001
+# Product = 110100000101101001
+# Final Product = 1101000001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 110101010100110101
+# Product = 111010101010011010
+# Product = 001000111010011010
+# Product = 000100011101001101
+# Product = 110110001101001101
+restart -f
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011010110
+# Input = 01101011 * 10001110
+# Product = 001110010011010110
+# Product = 000111001001101011
+# Product = 000011100100110101
+# Product = 110101010100110101
+# Product = 111010101010011010
+# Product = 001000111010011010
+# Product = 000100011101001101
+# Product = 110110001101001101
+run
+# Product = 111011000110100110
+# Product = 001001010110100110
+# Product = 000100101011010011
+# Product = 000010010101101001
+# Product = 110100000101101001
+# Final Product = 1101000001011010
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011111110
+# Input = 01111111 * 01111111
+# Product = 110000001011111110
+# Product = 111000000101111111
+# Product = 111100000010111111
+# Product = 111110000001011111
+# Product = 111111000000101111
+# Product = 111111100000010111
+# Product = 111111110000001011
+# Product = 111111111000000101
+run
+# Product = 001111110000000101
+# Final Product = 0011111100000001
+# Compile of tb_multControl.v was successful.
+# Compile of multControl.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb_multControl
+# Loading work.multControl
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Product = 000000000011111110
+# Input = 01111111 * 01111111
+# Product = 110000001011111110
+# Product = 111000000101111111
+# Product = 111100000010111111
+# Product = 111110000001011111
+# Product = 111111000000101111
+# Product = 111111100000010111
+# Product = 111111110000001011
+# Product = 111111111000000101
+run
+# Product = 001111110000000101
+# Final Product = 0011111100000001
+# End time: 19:33:02 on Feb 16,2024, Elapsed time: 1:17:02
+# Errors: 0, Warnings: 0

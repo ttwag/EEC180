@@ -1,8 +1,8 @@
-module multControl (
+module boothMult (
     input Start, clk, Resetn,
-    input [7:0] Mplier, Mcand,
+    input signed [7:0] Mplier, Mcand,
     output Finish,
-    output reg signed [17:0] Product
+    output [15:0] FProduct
 );
 
     // State Initialization
@@ -16,47 +16,72 @@ module multControl (
 
     // Control Initialization
     wire Done;
-    
 
-    // Data Initialization
-    reg signed [16:0] C, CompC;
-    reg signed [17:0] lastProduct;
+    // Data Initialization 
+    reg signed [17:0] C, CompC;
+    reg signed [17:0] Product;
+    assign FProduct = Product[16:1];
+    
 
     // Sequential Logic
     always@(posedge clk or posedge Resetn) begin
         if (Resetn) state <= S1;
         else begin
             case(state)
-                S1:begin                
-                    state <= nextState;
-                end
+                S1:begin
+                    state <= nextState;     
+                    if (!Start) begin
+                        Product <= Product;
+                        count <= count;
+                        C <= C;
+                        CompC <= CompC;
+                    end
+                    else begin
+                        Product <= {9'b000000000, Mplier, 1'b0};
+                        count <= 3'b000;
+                        C = {Mcand[7], Mcand, 9'b000000000};
+                        CompC = {~Mcand[7], (~Mcand) + 8'b00000001, 9'b000000000};
+                    end
+                end           
                 S2:begin
                     state <= nextState;
-                    if (~Done & ~(Product[1]^Product[0])) begin
-                        // Stay in S2;
+                    C <= C;
+                    CompC <= CompC;
+                    if (~Done && ~(Product[1]^Product[0])) begin
+                        // Stay in S2
                         Product <= Product >>> 1;
-                        count <= count + 1;
+                        count <= count + 3'b001;
                     end
-                    else if (Done & ~(Product[1]^Product[0])) begin
+                    else if (Done && ~(Product[1]^Product[0])) begin
                         // Go to S1
                         Product <= Product >>> 1;
+                        count <= count;
                     end
                     else begin
                         // Go to S3
-                        if (Product[1]) Product <= Product + CompC;
-                        else Product <= Product + C;
+                        if (Product[1]) begin
+                            Product <= Product + CompC;
+                            count <= count;
+                        end
+                        else begin
+                            Product <= Product + C;
+                            count <= count;
+                        end
                     end
                 end
                 S3:begin
                     state <= nextState;
+                    C <= C;
+                    CompC <= CompC;
                     if (!Done) begin
                         // Go to S2
                         Product <= Product >>> 1;
-                        count <= count + 1;
+                        count <= count + 3'b001;
                     end
                     else begin
                         // Go to S1
                         Product <= Product >>> 1;
+                        count <= count;
                     end
                 end
             endcase
@@ -70,21 +95,19 @@ module multControl (
     always@(*) begin
         case(state)
             S1:begin
-                if (!Start) nextState = S1;
+                if (!Start) begin 
+                    nextState = S1;
+                end
                 else begin
                     nextState = S2;
-                    Product = {9'b000000000, Mplier, 1'b0};
-                    C = {Mcand, 9'b000000000};
-                    CompC = {(~Mcand) + 8'b00000001, 9'b000000000};
-                    count = 3'b000;
                 end
             end
             S2:begin
-                if (~Done & ~(Product[1]^Product[0])) begin
+                if (~Done && ~(Product[1]^Product[0])) begin
                     // Stay in S2;
                     nextState = S2;
                 end
-                else if (Done & ~(Product[1]^Product[0])) begin
+                else if (Done && ~(Product[1]^Product[0])) begin
                     // Go to S1
                     nextState = S1;
                 end
