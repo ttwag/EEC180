@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at booth.v(27): always construct contains both blocking and non-blocking assignments File: C:/Users/Tao Wang/Desktop/EEC180/lab5/Extra_Credit_2_Wrapper/hdl/booth.v Line: 27
