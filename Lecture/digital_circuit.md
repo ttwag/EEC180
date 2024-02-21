@@ -13,6 +13,12 @@ Why do we care?
 * CMOS technology has the lowest power consumption.
 * CMOS Scaling leads to lower cost, improved performance, and the same power consumption.
 * PMOS is good at passing a 1 but not 0, and vice versa for NMOS. Therefore, using both of them could create a near-perfect switch.
+* nMOS transistor-based switch is ON when x = 1 and OFF when x = 0
+    * Good for passing a 0, signals degrades by Vth for a 1.
+* pMOS transistor-based switch is ON when x = 0 and OFF when x = 1
+    * Good for passing a 1, the signal degrades by Vth for a 0.
+
+
 
 ### CMOS Layout
 
@@ -22,6 +28,9 @@ Why do we care?
 * Less Power.
 * Can only implement monotonically decreasing function (Input increase, output stays or decreases).
 * Gives clean 1 and 0.
+
+### Pull-Up Pull-Down Network
+* Dual of a Boolean function is obtained by replacing AND by OR and 0 by 1 and OR by AND and 1 by 0.
 
 **Switch Network**
 * Uses switches to route input to output for the boolean function.
