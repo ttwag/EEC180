@@ -1,4 +1,4 @@
-module boothMult (
+module booth (
     input Start, clk, Resetn,
     input signed [7:0] Mplier, Mcand,
     output Finish,

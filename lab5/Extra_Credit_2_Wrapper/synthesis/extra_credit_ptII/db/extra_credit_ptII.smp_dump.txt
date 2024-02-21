@@ -1,0 +1,6 @@
+
+State Machine - |extra_credit_ptII|booth:i0|state
+Name state.S1 state.S3 state.S2 
+state.S1 0 0 0 
+state.S2 1 0 1 
+state.S3 1 1 0 
