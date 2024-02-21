@@ -11,6 +11,7 @@ execute each of the filtering operations.
 
 ```
 // Tint (4 Cycles, 0.02s)
+
 Time = 4 * (1/5MHz) * 512 * 512 = 0.02s
 
 f(x) = max{x-64, 0}
@@ -18,13 +19,13 @@ f(x) = max{x-64, 0}
 A:
     subi rs1, rs1, 64
     bgt rs1, x0, offset
-    add rs3, x0, x0
+    add rs1, x0, x0
 offset:
-    add rs3, rs1, x0
 ```
 
 ```
 // Invert (1 Cycles, 0.005s)
+
 Time = 1 * (1/5MHz) * 512 * 512 = 0.005s
 
 f(x) = 255 - x
@@ -69,7 +70,12 @@ otherwise:
     addi rs1, rs1, 128
 end:
 ```
-
+| Type | Cycle for 1 Pixel | Total Time (s) |
+| -----|------|-----|
+|  Tint | 3 | 0.015 |
+|  Invert | 1 | 0.005 |
+|  Threshold | 4 | 0.02 |
+|  Increase Contrast | 9 | 0.047 |
 
 (b) Now, assume that each of the four filters in Table 2 can be done in two
 clock cycles using an FPGA. If we did not have the transmission limitation
@@ -77,7 +83,7 @@ imposed by the serial port and again assuming a 50 MHz clock, how many
 seconds will each filter take? What is the speed up relative to the
 microprocessor?
 
-| Type | Cycle | Time (s) | Speed Up (%) |
+| Type | Cycle for 1 Pixel | Total Time (s) | Speed Up (%) |
 | -----|------|-----| ----|
 |  Tint | 2 | 0.01 | 50 |
 |  Invert | 2 | 0.01 | N/A |
