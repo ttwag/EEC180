@@ -1,0 +1,346 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partI_new
+valtera_avalon_st_pipeline_base
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1707549147
+!i10b 1
+!s100 IZ246NSd;dW2a7WAUFMLa1
+IV0IbjT;VECSLAU1n]zW@z1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+Z3 dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partII
+Z4 w1707479835
+8./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_base.v
+F./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_base.v
+Z5 L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1707549147.000000
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+Z8 o-sv -work pixel_ram_s1_burst_adapter
+Z9 tCvgOpt 0
+valtera_avalon_st_pipeline_stage
+R0
+R1
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+IdVjMN_SWFme0THEZh>=kL0
+R2
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_default_burst_converter
+R0
+R1
+!i10b 1
+!s100 EmN7^KGFmnmba?3NNCWgU0
+IVhEYklkNIk@I`8:<ikIA91
+R2
+!s105 altera_default_burst_converter_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_default_burst_converter.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_default_burst_converter.sv
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_default_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_default_burst_converter.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_incr_burst_converter
+R0
+R1
+!i10b 1
+!s100 9gP0R0To835oQO4JK^zb<3
+Ia]64eH2L6zi_GHU_9:i710
+R2
+!s105 altera_incr_burst_converter_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_incr_burst_converter.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_incr_burst_converter.sv
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_incr_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_incr_burst_converter.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_address_alignment
+R0
+R1
+!i10b 1
+!s100 ;A9^i^d]cR@BAQXEG>h_<3
+I[gY9Wz7IJhczA3>Q8NOjJ0
+R2
+!s105 altera_merlin_address_alignment_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_merlin_address_alignment.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_merlin_address_alignment.sv
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_merlin_address_alignment.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_merlin_address_alignment.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter
+R0
+Z10 !s110 1707549146
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IMAJ3g5X;Am5ncO5^F@PjP2
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter.sv
+L0 21
+R6
+r1
+!s85 0
+31
+Z11 !s108 1707549146.000000
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_13_1
+R0
+R10
+!i10b 1
+!s100 iQDJAL[b9z>XeokOb35D]1
+I136XG2f^RMFYccXlNgO9U2
+R2
+Z12 !s105 altera_merlin_burst_adapter_13_1_sv_unit
+S1
+R3
+R4
+Z13 8./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+Z14 F./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+L0 264
+R6
+r1
+!s85 0
+31
+R11
+Z15 !s107 ./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|
+Z16 !s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_adder
+R0
+R10
+!i10b 1
+!s100 cJB8e]Mn>T^mE[9iEE1jk1
+I=fE`W5@Pd[6GncSMWWIR51
+R2
+R12
+S1
+R3
+R4
+R13
+R14
+L0 55
+R6
+r1
+!s85 0
+31
+R11
+R15
+R16
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_burstwrap_increment
+R0
+R10
+!i10b 1
+!s100 ILP^RoOQ^]Ef]XAJeF<SX0
+ILTBLUDEhff2>3fbzNAP>:2
+R2
+R12
+S1
+R3
+R4
+R13
+R14
+L0 40
+R6
+r1
+!s85 0
+31
+R11
+R15
+R16
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_min
+R0
+R10
+!i10b 1
+!s100 5OK?oF?>S0i7IYQi<IKhS1
+I6P?8XS7RATPWFbXPE;_Vl1
+R2
+R12
+S1
+R3
+R4
+R13
+R14
+L0 98
+R6
+r1
+!s85 0
+31
+R11
+R15
+R16
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_new
+R0
+R10
+!i10b 1
+!s100 eY?@Ti=8ZUfaj_BZGBf:M0
+IEIc`b:YS4K<kM_D9Z6b1c0
+R2
+!s105 altera_merlin_burst_adapter_new_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_new.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_new.sv
+L0 25
+R6
+r1
+!s85 0
+31
+R11
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_new.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_new.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_subtractor
+R0
+R10
+!i10b 1
+!s100 3nMfY`gC_:azzfSULAX8f2
+I]@4ej:5^Bmk4`1zR59nB63
+R2
+R12
+S1
+R3
+R4
+R13
+R14
+L0 77
+R6
+r1
+!s85 0
+31
+R11
+R15
+R16
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_uncompressed_only
+R0
+R10
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+IzEg:Go6jeGV7kMAF_4]2P1
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R6
+r1
+!s85 0
+31
+R11
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9
+valtera_wrap_burst_converter
+R0
+R1
+!i10b 1
+!s100 NPBYN=]<L:km?aGk_2fQE3
+I=blkoONKF[lZ[nPKE:0dG3
+R2
+!s105 altera_wrap_burst_converter_sv_unit
+S1
+R3
+R4
+8./jtag_to_onchipmem/simulation/submodules/altera_wrap_burst_converter.sv
+F./jtag_to_onchipmem/simulation/submodules/altera_wrap_burst_converter.sv
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_wrap_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem/simulation/submodules/altera_wrap_burst_converter.sv|-work|pixel_ram_s1_burst_adapter|
+!i113 1
+R8
+R9

@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/taskIII
+vjtag_to_onchipmem_32_start_transfer
+!s110 1707645957
+!i10b 1
+!s100 [SG:HlOX2agALhi:@MXWG1
+Ijj2kU215Rzf[HIL`Wk[1G3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1707643487
+8./jtag_to_onchipmem_32/simulation/submodules/jtag_to_onchipmem_32_start_transfer.v
+F./jtag_to_onchipmem_32/simulation/submodules/jtag_to_onchipmem_32_start_transfer.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1707645957.000000
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/jtag_to_onchipmem_32_start_transfer.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/jtag_to_onchipmem_32_start_transfer.v|-work|start_transfer|
+!i113 1
+o-work start_transfer
+tCvgOpt 0

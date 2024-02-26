@@ -1,0 +1,265 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/taskIII
+valtera_avalon_st_clock_crosser
+Z1 !s110 1707645956
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+ILT`RoYaQe4abKhZPzJemO0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1707643502
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_clock_crosser.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_clock_crosser.v
+Z4 L0 22
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1707645956.000000
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_clock_crosser.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+Z7 o-work jtag_phy_embedded_in_jtag_master
+Z8 tCvgOpt 0
+valtera_avalon_st_idle_inserter
+Z9 !s110 1707645957
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+Io3=j4bA0AeT3eK5[@_85Q1
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_inserter.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_inserter.v
+Z10 L0 19
+R5
+r1
+!s85 0
+31
+Z11 !s108 1707645957.000000
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_inserter.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_idle_remover
+R1
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+IR9i0<`Qf;Bn;Qo;;fGNdj2
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_remover.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_remover.v
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_idle_remover.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_jtag_interface
+R1
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+IXWh^UF>F4bb?X>YBmn6n90
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_jtag_interface.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_jtag_interface.v
+L0 20
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_jtag_interface.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_base
+R1
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+IA<gdXYF^1_oVJ>4c:HAUc1
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_base.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_base.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_stage
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R9
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+I:0cPC]Mo4`0OB@K:=b8S`1
+R2
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|./jtag_to_onchipmem_32/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+o-sv -work jtag_phy_embedded_in_jtag_master
+R8
+valtera_jtag_control_signal_crosser
+R1
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+IloH9HkcVN9F`bXhXFh=U30
+R2
+R0
+R3
+Z12 8./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_dc_streaming.v
+Z13 F./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_dc_streaming.v
+L0 30
+R5
+r1
+!s85 0
+31
+R6
+Z14 !s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_dc_streaming.v|
+Z15 !s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_dc_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_dc_streaming
+R1
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+IbVK^@20e@_RYh;L0D71Mm0
+R2
+R0
+R3
+R12
+R13
+L0 135
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+valtera_jtag_sld_node
+R1
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+IA:0B2XMA2F:E@8TM;d9@51
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_sld_node.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_sld_node.v
+L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_sld_node.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_src_crosser
+R1
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+I@U9C[0]hobS<;RJCC?KF>0
+R2
+R0
+R3
+R12
+R13
+L0 72
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+valtera_jtag_streaming
+R1
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+Ia7_X92<9N<a=a810;ad_z2
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_streaming.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_streaming.v
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_streaming.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_jtag_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_std_synchronizer_nocut
+R1
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+IT7:K]jg@J>Dc=N]2H9MXf3
+R2
+R0
+R3
+8./jtag_to_onchipmem_32/simulation/submodules/altera_std_synchronizer_nocut.v
+F./jtag_to_onchipmem_32/simulation/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./jtag_to_onchipmem_32/simulation/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem_32/simulation/submodules/altera_std_synchronizer_nocut.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8

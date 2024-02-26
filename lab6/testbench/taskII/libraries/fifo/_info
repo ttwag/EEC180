@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partI_new
+valtera_avalon_sc_fifo
+!s110 1707549148
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I=efIQ9>1TVS@N^S]CDoZf3
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partII
+w1707479835
+8./jtag_to_onchipmem/simulation/submodules/altera_avalon_sc_fifo.v
+F./jtag_to_onchipmem/simulation/submodules/altera_avalon_sc_fifo.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1707549148.000000
+!s107 ./jtag_to_onchipmem/simulation/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem/simulation/submodules/altera_avalon_sc_fifo.v|-work|fifo|
+!i113 1
+o-work fifo
+tCvgOpt 0

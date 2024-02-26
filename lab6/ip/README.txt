@@ -1,1 +1,0 @@
-Save IP .v, .qip, and other Quartus-generated files in this folder.

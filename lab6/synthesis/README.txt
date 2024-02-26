@@ -1,1 +1,0 @@
-Save all Quartus project files in this directory. When using systembuilder use this as the output directory. If you have multiple Quartus projects, create multiple sub-directories here (i.e. synthesis/majority/, synthesis/partI/, synthesis/partII/, etc.).

@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partI_new
+vjtag_to_onchipmem_mm_interconnect_0
+!s110 1707549149
+!i10b 1
+!s100 =EA11zb^D8XXV=@2UQDnZ2
+IdjzaOPUSbeM[dVXiGQ^f43
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/sheav/OneDrive/Desktop/Lab6_Solution/Lab6_Solution/testbench/partII
+w1707479835
+8./jtag_to_onchipmem/simulation/submodules/jtag_to_onchipmem_mm_interconnect_0.v
+F./jtag_to_onchipmem/simulation/submodules/jtag_to_onchipmem_mm_interconnect_0.v
+L0 9
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1707549149.000000
+!s107 ./jtag_to_onchipmem/simulation/submodules/jtag_to_onchipmem_mm_interconnect_0.v|
+!s90 -reportprogress|300|./jtag_to_onchipmem/simulation/submodules/jtag_to_onchipmem_mm_interconnect_0.v|-work|mm_interconnect_0|
+!i113 1
+o-work mm_interconnect_0
+tCvgOpt 0
