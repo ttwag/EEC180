@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab5_P2
-Fri Feb 16 19:21:52 2024
+Wed Feb 21 09:01:19 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -13,11 +13,11 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |Lab5_P2|multControl:multiplier|state
+  8. State Machine - |Lab5_P2|booth:multiplier|state
   9. Registers Removed During Synthesis
  10. Removed Registers Triggering Further Register Optimizations
  11. General Register Statistics
- 12. Port Connectivity Checks: "multControl:multiplier"
+ 12. Port Connectivity Checks: "booth:multiplier"
  13. Post-Synthesis Netlist Statistics for Top Partition
  14. Elapsed Time Per Partition
  15. Analysis & Synthesis Messages
@@ -48,7 +48,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Feb 16 19:21:51 2024       ;
+; Analysis & Synthesis Status        ; Successful - Wed Feb 21 09:01:19 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; Lab5_P2                                     ;
 ; Top-level Entity Name              ; Lab5_P2                                     ;
@@ -169,14 +169,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                            ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
-; Lab5_P2.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v ;         ;
-; ../hdl/multControl.v             ; yes             ; User Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v   ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                      ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------+---------+
+; ../../hdl/booth.v                ; yes             ; User Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/booth.v                 ;         ;
+; Lab5_P2.v                        ; yes             ; User Verilog HDL File  ; C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -221,15 +221,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 Encoding Type:  One-Hot
-+-------------------------------------------------------+
-; State Machine - |Lab5_P2|multControl:multiplier|state ;
-+----------+----------+----------+----------------------+
-; Name     ; state.S1 ; state.S3 ; state.S2             ;
-+----------+----------+----------+----------------------+
-; state.S1 ; 0        ; 0        ; 0                    ;
-; state.S2 ; 1        ; 0        ; 1                    ;
-; state.S3 ; 1        ; 1        ; 0                    ;
-+----------+----------+----------+----------------------+
++-------------------------------------------------+
+; State Machine - |Lab5_P2|booth:multiplier|state ;
++----------+----------+----------+----------------+
+; Name     ; state.S1 ; state.S3 ; state.S2       ;
++----------+----------+----------+----------------+
+; state.S1 ; 0        ; 0        ; 0              ;
+; state.S2 ; 1        ; 0        ; 1              ;
+; state.S3 ; 1        ; 1        ; 0              ;
++----------+----------+----------+----------------+
 
 
 +-------------------------------------------------------------------------------+
@@ -237,33 +237,32 @@ Encoding Type:  One-Hot
 +----------------------------------------+--------------------------------------+
 ; Register name                          ; Reason for Removal                   ;
 +----------------------------------------+--------------------------------------+
-; multControl:multiplier|count[0]        ; Stuck at GND due to stuck port clock ;
-; multControl:multiplier|C[0..17]        ; Stuck at GND due to stuck port clock ;
-; multControl:multiplier|CompC[0..17]    ; Stuck at GND due to stuck port clock ;
-; multControl:multiplier|Product[0..17]  ; Stuck at GND due to stuck port clock ;
-; multControl:multiplier|count[1,2]      ; Stuck at GND due to stuck port clock ;
-; multControl:multiplier|state.S2        ; Lost fanout                          ;
-; multControl:multiplier|state.S3        ; Lost fanout                          ;
-; multControl:multiplier|state.S1        ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|count[0]              ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|C[0..17]              ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|CompC[0..17]          ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|Product[0..17]        ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|count[1,2]            ; Stuck at GND due to stuck port clock ;
+; booth:multiplier|state.S2              ; Lost fanout                          ;
+; booth:multiplier|state.S3              ; Lost fanout                          ;
+; booth:multiplier|state.S1              ; Stuck at GND due to stuck port clock ;
 ; Total Number of Removed Registers = 60 ;                                      ;
 +----------------------------------------+--------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                            ;
-+------------------------------------+-------------------------+-------------------------------------------------------------------------+
-; Register name                      ; Reason for Removal      ; Registers Removed due to This Register                                  ;
-+------------------------------------+-------------------------+-------------------------------------------------------------------------+
-; multControl:multiplier|Product[15] ; Stuck at GND            ; multControl:multiplier|Product[14], multControl:multiplier|Product[13], ;
-;                                    ; due to stuck port clock ; multControl:multiplier|Product[12], multControl:multiplier|Product[11], ;
-;                                    ;                         ; multControl:multiplier|Product[10], multControl:multiplier|Product[9],  ;
-;                                    ;                         ; multControl:multiplier|Product[8], multControl:multiplier|Product[7],   ;
-;                                    ;                         ; multControl:multiplier|Product[6], multControl:multiplier|Product[5],   ;
-;                                    ;                         ; multControl:multiplier|Product[4], multControl:multiplier|Product[3],   ;
-;                                    ;                         ; multControl:multiplier|Product[2]                                       ;
-; multControl:multiplier|C[17]       ; Stuck at GND            ; multControl:multiplier|Product[17]                                      ;
-;                                    ; due to stuck port clock ;                                                                         ;
-+------------------------------------+-------------------------+-------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                    ;
++------------------------+-------------------------+-------------------------------------------------------------+
+; Register name          ; Reason for Removal      ; Registers Removed due to This Register                      ;
++------------------------+-------------------------+-------------------------------------------------------------+
+; booth:multiplier|C[17] ; Stuck at GND            ; booth:multiplier|Product[17], booth:multiplier|Product[16], ;
+;                        ; due to stuck port clock ; booth:multiplier|Product[15], booth:multiplier|Product[14], ;
+;                        ;                         ; booth:multiplier|Product[13], booth:multiplier|Product[12], ;
+;                        ;                         ; booth:multiplier|Product[11], booth:multiplier|Product[10], ;
+;                        ;                         ; booth:multiplier|Product[9], booth:multiplier|Product[8],   ;
+;                        ;                         ; booth:multiplier|Product[7], booth:multiplier|Product[6],   ;
+;                        ;                         ; booth:multiplier|Product[5], booth:multiplier|Product[4],   ;
+;                        ;                         ; booth:multiplier|Product[3], booth:multiplier|Product[2]    ;
++------------------------+-------------------------+-------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -281,14 +280,15 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "multControl:multiplier"                                                                ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Finish  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; Product ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "booth:multiplier"                                                                                                                                                                  ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                                                                                                                 ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Finish          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                     ;
+; FProduct        ; Output ; Warning  ; Output or bidir port (16 bits) is smaller than the port expression (18 bits) it drives.  The 2 most-significant bit(s) in the port expression will be connected to GND. ;
+; FProduct[15..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -321,101 +321,105 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Fri Feb 16 19:21:39 2024
+    Info: Processing started: Wed Feb 21 09:01:05 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab5_P2 -c Lab5_P2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab5/hdl/seg7hex.v
+    Info (12023): Found entity 1: seg7hex File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/seg7hex.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab5/hdl/booth.v
+    Info (12023): Found entity 1: booth File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/booth.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file lab5_p2.v
-    Info (12023): Found entity 1: Lab5_P2 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 6
-Info (12021): Found 1 design units, including 1 entities, in source file /users/tao wang/desktop/eec180/lab5/hdl/multcontrol.v
-    Info (12023): Found entity 1: multControl File: C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/multControl.v Line: 1
+    Info (12023): Found entity 1: Lab5_P2 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 6
+Warning (12019): Can't analyze file -- file ../hdl/multControl.v is missing
 Info (12127): Elaborating entity "Lab5_P2" for the top level hierarchy
-Warning (10034): Output port "HEX0" at Lab5_P2.v(9) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-Warning (10034): Output port "HEX1" at Lab5_P2.v(10) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-Warning (10034): Output port "HEX2" at Lab5_P2.v(11) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-Warning (10034): Output port "HEX3" at Lab5_P2.v(12) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-Warning (10034): Output port "HEX4" at Lab5_P2.v(13) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-Warning (10034): Output port "HEX5" at Lab5_P2.v(14) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-Info (12128): Elaborating entity "multControl" for hierarchy "multControl:multiplier" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 42
+Warning (10034): Output port "HEX0" at Lab5_P2.v(9) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+Warning (10034): Output port "HEX1" at Lab5_P2.v(10) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+Warning (10034): Output port "HEX2" at Lab5_P2.v(11) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+Warning (10034): Output port "HEX3" at Lab5_P2.v(12) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+Warning (10034): Output port "HEX4" at Lab5_P2.v(13) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+Warning (10034): Output port "HEX5" at Lab5_P2.v(14) has no driver File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+Info (12128): Elaborating entity "booth" for hierarchy "booth:multiplier" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 42
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 9
-    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 10
-    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 11
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 12
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 13
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
-    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 9
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 10
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 11
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 12
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 13
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
+    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 14
 Info (17049): 2 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 12 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 17
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 17
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 17
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 17
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
 Info (21057): Implemented 60 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 48 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 69 warnings
-    Info: Peak virtual memory: 4736 megabytes
-    Info: Processing ended: Fri Feb 16 19:21:52 2024
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:22
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 71 warnings
+    Info: Peak virtual memory: 4744 megabytes
+    Info: Processing ended: Wed Feb 21 09:01:19 2024
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.map.smsg.
+The suppressed messages can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.map.smsg.
 
 

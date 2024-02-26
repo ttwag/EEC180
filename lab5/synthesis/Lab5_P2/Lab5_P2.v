@@ -39,6 +39,6 @@ module Lab5_P2(
    wire [17:0] Product;
    wire Finish;
 
-   multControl multiplier(.Start(Start), .clk(clk), .Resetn(Resetn), .Mplier(Mplier), .Mcand(Mcand), .Finish(Finish), .Product(Product));
+   booth multiplier(.Start(Start), .clk(clk), .Resetn(Resetn), .Mplier(Mplier), .Mcand(Mcand), .Finish(Finish), .FProduct(Product));
 
 endmodule

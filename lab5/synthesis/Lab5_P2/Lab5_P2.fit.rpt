@@ -1,5 +1,5 @@
 Fitter report for Lab5_P2
-Fri Feb 16 19:22:04 2024
+Wed Feb 21 09:01:40 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Feb 16 19:22:04 2024       ;
+; Fitter Status                      ; Successful - Wed Feb 21 09:01:40 2024       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; Lab5_P2                                     ;
 ; Top-level Entity Name              ; Lab5_P2                                     ;
@@ -148,7 +148,7 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -195,7 +195,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.pin.
+The pin-out file can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1370,29 +1370,29 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (169177): 12 pins must meet Intel FPGA requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin KEY[0] uses I/O standard 3.3 V Schmitt Trigger at B8 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 17
-    Info (169178): Pin KEY[1] uses I/O standard 3.3 V Schmitt Trigger at A7 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 17
-    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at C10 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at C11 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at D12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at C12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at A12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at B12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at A13 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at F15 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.v Line: 21
-Info (144001): Generated suppressed messages file C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.fit.smsg
+    Info (169178): Pin KEY[0] uses I/O standard 3.3 V Schmitt Trigger at B8 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 17
+    Info (169178): Pin KEY[1] uses I/O standard 3.3 V Schmitt Trigger at A7 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 17
+    Info (169178): Pin SW[0] uses I/O standard 3.3-V LVTTL at C10 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[1] uses I/O standard 3.3-V LVTTL at C11 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[2] uses I/O standard 3.3-V LVTTL at D12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[3] uses I/O standard 3.3-V LVTTL at C12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[4] uses I/O standard 3.3-V LVTTL at A12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[5] uses I/O standard 3.3-V LVTTL at B12 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[6] uses I/O standard 3.3-V LVTTL at A13 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[7] uses I/O standard 3.3-V LVTTL at A14 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[8] uses I/O standard 3.3-V LVTTL at B14 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+    Info (169178): Pin SW[9] uses I/O standard 3.3-V LVTTL at F15 File: C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.v Line: 21
+Info (144001): Generated suppressed messages file C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5637 megabytes
-    Info: Processing ended: Fri Feb 16 19:22:04 2024
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 5642 megabytes
+    Info: Processing ended: Wed Feb 21 09:01:41 2024
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:16
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2.fit.smsg.
+The suppressed messages can be found in C:/Users/Tao Wang/Desktop/EEC180/lab5/synthesis/Lab5_P2/Lab5_P2.fit.smsg.
 
 

@@ -1,15 +1,15 @@
-{C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module boothMult
-
-Top level modules:
-	boothMult
-
-} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v}
+{C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab5/test/tb_appendix/tb_booth.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_booth
 
 Top level modules:
 	tb_booth
+
+} {} {}} {C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v} {1 {vlog -work work -stats=none {C:/Users/Tao Wang/Desktop/EEC180/lab5/hdl/boothMult.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module boothMult
+
+Top level modules:
+	boothMult
 
 } {} {}}

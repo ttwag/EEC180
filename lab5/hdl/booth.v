@@ -8,13 +8,13 @@ module booth (
     // State Initialization
     reg [1:0] state;
     reg [1:0] nextState;
-    reg [2:0] count;
 
     localparam S1 = 2'b00;
     localparam S2 = 2'b01;
     localparam S3 = 2'b10;
 
     // Control Initialization
+    reg [2:0] count;
     wire Done;
 
     // Data Initialization 
