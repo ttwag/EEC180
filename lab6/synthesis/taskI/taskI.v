@@ -52,7 +52,17 @@ wire [8:0]
 //=======================================================
 
 // Part I instance should go here!
-
+controller RAM_control(
+	.clk(MAX10_CLK1_50),
+	.rst_n(KEY[0]),
+	.writeEnable(writeEnable),
+	.start(start),
+	.ready(ready),
+	.addr(addr),
+	.datain(datain),
+	.dataout(dataout),
+	.dim(dim)
+);
 
 
 
