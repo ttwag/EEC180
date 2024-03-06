@@ -3,10 +3,10 @@
 module controller (
     input ready, clk, rst_n,
     input [8:0] dim,
+    input [7:0] dataout,
     output reg [7:0] datain,
     output reg [15:0] addr,
-    output reg start, writeEnable,
-    output [7:0] dataout
+    output reg start, writeEnable
 );
 
 localparam Sidle = 2'b00;
@@ -50,8 +50,8 @@ always@(*) begin
             addr = addr_r + 16'b1;
             datain = 8'b1;
             writeEnable = 1'b0;
-            dim_x = dim_x_r;
-            dim_y = dim_y_r;
+            // dim_x = dim_x_r;
+            // dim_y = dim_y_r;
             nextState = Swrite;
         end
 
