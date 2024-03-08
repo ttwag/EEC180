@@ -52,6 +52,23 @@ wire [1:0]
 //=======================================================
 
 // Part II instnce should go here!
+controller RAM_control(
+	.clk(MAX10_CLK1_50),
+	.rst_n(KEY[0]),
+	.writeEnable(writeEnable),
+	.start(start),
+	.ready(ready),
+	.addr(addr),
+	//.datain(datain),
+	//.dataout(dataout),
+	.dim(dim)
+);
+
+image_processor filter (
+	.mode(mode),
+	.pixel_in(dataout),
+	.pixel_out(datain)
+);
 
 // Do not touch
 jtag_to_onchipmem_handler uHandler(

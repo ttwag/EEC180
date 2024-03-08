@@ -89,3 +89,179 @@ microprocessor?
 |  Invert | 2 | 0.01 | N/A |
 |  Threshold | 2 | 0.01 | 50 |
 |  Increase Contrast | 2 | 0.01 | 79 |
+
+## Task 1
+```
+# ===============================================================
+#         Lab 6 Part I Testbench w/ USB-Blaster emulation        
+# ===============================================================
+#  * Reset the JTAG controller
+#  * Deassert reset
+#  * Setting dim to 8...
+# 
+# ===============================================================
+# Starting Test 1
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# Starting Test 2
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# All tests complete! Your logic consumed 129 cycles.
+# ===============================================================
+# 
+# ** Note: $stop    : C:/Users/Tao Wang/Desktop/EEC180/lab6/test/tb_taskI.sv(288)
+#    Time: 6900975 ns  Iteration: 1  Instance: /tb_partI
+# Break in Module tb_partI at C:/Users/Tao Wang/Desktop/EEC180/lab6/test/tb_taskI.sv line 288
+```
+
+## Part 2
+```
+ Warning: RAM block type is assumed as     AUTO
+# Time: 0  Instance: tb_partII.dut.uHandler.u0.hist_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: RAM block type is assumed as     AUTO
+# Time: 0  Instance: tb_partII.dut.uHandler.u0.pixel_ram.the_altsyncram.m_default.altsyncram_inst
+# 
+# 
+# ===============================================================
+#        Lab 6 Part II Testbench w/ USB-Blaster emulation        
+# ===============================================================
+#  * Reset the JTAG controller
+#  * Deassert reset
+#  * Setting dim to 8...
+# 
+# ===============================================================
+# Starting Test on Mode 0
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting mode to 0...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# Starting Test on Mode 1
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting mode to 1...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# Starting Test on Mode 2
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting mode to 2...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# Starting Test on Mode 3
+# ===============================================================
+#  * Loading test image to RAM...
+#  * Setting mode to 3...
+#  * Setting ready high...
+#  * SUCCESS: start was set!
+#  * Setting ready low...
+#  * Collecting result...
+#  * Results: x - incorrect result; o - correct result
+# 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	o o o o o o o o 
+# 	
+#  * SUCCESS: Expected image and received image match!
+# 
+# ===============================================================
+# All tests complete! Your logic consumed:
+#  * Mode 0 - 129 cycles.
+#  * Mode 1 - 129 cycles.
+#  * Mode 2 - 129 cycles.
+#  * Mode 3 - 129 cycles.
+# ===============================================================
+# 
+# ** Note: $stop    : C:/Users/Tao Wang/Desktop/EEC180/lab6/test/tb_taskII.sv(292)
+#    Time: 14108975 ns  Iteration: 1  Instance: /tb_partII
+# Break in Module tb_partII at C:/Users/Tao Wang/Desktop/EEC180/lab6/test/tb_taskII.sv line 292
+```
