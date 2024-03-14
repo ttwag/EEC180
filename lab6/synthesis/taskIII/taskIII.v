@@ -57,6 +57,20 @@ wire [31:0]
 //=======================================================
 
 // Part III instance should go here!
+histogram_computation hist_compute (
+	.datain_pix(dataout),
+	.clk(MAX10_CLK1_50),
+	.ready(ready),
+	.dim(dim),
+	// Output
+	.WE_hist(writeEnable_hist),
+	.start(start),
+	.addr_pix(addr),
+	.addr_hist(addr_hist),
+	.dataout_hist(datain_hist)
+);
+
+assign hist_bins = 6'b1000;
 
 // Do not touch
 jtag_to_onchipmem_handler_32 uHandler(

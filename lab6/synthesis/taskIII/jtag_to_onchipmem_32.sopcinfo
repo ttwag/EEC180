@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport
- name="jtag_to_onchipmem"
- kind="jtag_to_onchipmem"
+ name="jtag_to_onchipmem_32"
+ kind="jtag_to_onchipmem_32"
  version="1.0"
  fabric="QSYS">
  <!-- Format version 19.1 670 (Future versions may contain additional information.) -->
- <!-- 2024.03.12.21:54:35 -->
+ <!-- 2024.03.14.13:09:52 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1710305674</value>
+  <value>1710446991</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -1264,7 +1264,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_CONTENTS_FILE</name>
-   <value>jtag_to_onchipmem_hist_ram</value>
+   <value>jtag_to_onchipmem_32_hist_ram</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
@@ -1328,7 +1328,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_FILENAME</name>
-   <value>jtag_to_onchipmem_hist_ram</value>
+   <value>jtag_to_onchipmem_32_hist_ram</value>
   </assignment>
   <assignment>
    <name>postgeneration.simulation.init_file.param_name</name>
@@ -1540,7 +1540,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="autoInitializationFileName">
    <type>java.lang.String</type>
-   <value>jtag_to_onchipmem_hist_ram</value>
+   <value>jtag_to_onchipmem_32_hist_ram</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -1615,7 +1615,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>jtag_to_onchipmem_hist_ram.hex</value>
+   <value>jtag_to_onchipmem_32_hist_ram.hex</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -4777,7 +4777,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_CONTENTS_FILE</name>
-   <value>jtag_to_onchipmem_pixel_ram</value>
+   <value>jtag_to_onchipmem_32_pixel_ram</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
@@ -4837,11 +4837,11 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_DATA_WIDTH</name>
-   <value>8</value>
+   <value>32</value>
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_FILENAME</name>
-   <value>jtag_to_onchipmem_pixel_ram</value>
+   <value>jtag_to_onchipmem_32_pixel_ram</value>
   </assignment>
   <assignment>
    <name>postgeneration.simulation.init_file.param_name</name>
@@ -4869,7 +4869,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataWidth">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -5053,7 +5053,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="autoInitializationFileName">
    <type>java.lang.String</type>
-   <value>jtag_to_onchipmem_pixel_ram</value>
+   <value>jtag_to_onchipmem_32_pixel_ram</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5080,7 +5080,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width">
    <type>int</type>
-   <value>16</value>
+   <value>14</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5088,7 +5088,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width2">
    <type>int</type>
-   <value>16</value>
+   <value>14</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5096,7 +5096,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_data_width">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5104,7 +5104,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_data_width2">
    <type>int</type>
-   <value>8</value>
+   <value>32</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5128,7 +5128,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>jtag_to_onchipmem_pixel_ram.hex</value>
+   <value>jtag_to_onchipmem_32_pixel_ram.hex</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -5524,7 +5524,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>address</name>
     <direction>Input</direction>
-    <width>16</width>
+    <width>14</width>
     <role>address</role>
    </port>
    <port>
@@ -5548,14 +5548,20 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>readdata</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>32</width>
     <role>readdata</role>
    </port>
    <port>
     <name>writedata</name>
     <direction>Input</direction>
-    <width>8</width>
+    <width>32</width>
     <role>writedata</role>
+   </port>
+   <port>
+    <name>byteenable</name>
+    <direction>Input</direction>
+    <width>4</width>
+    <role>byteenable</role>
    </port>
   </interface>
   <interface name="reset1" kind="reset_sink" version="19.1">
@@ -5946,7 +5952,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>address2</name>
     <direction>Input</direction>
-    <width>16</width>
+    <width>14</width>
     <role>address</role>
    </port>
    <port>
@@ -5970,14 +5976,20 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>readdata2</name>
     <direction>Output</direction>
-    <width>8</width>
+    <width>32</width>
     <role>readdata</role>
    </port>
    <port>
     <name>writedata2</name>
     <direction>Input</direction>
-    <width>8</width>
+    <width>32</width>
     <role>writedata</role>
+   </port>
+   <port>
+    <name>byteenable2</name>
+    <direction>Input</direction>
+    <width>4</width>
+    <role>byteenable</role>
    </port>
   </interface>
   <interface name="clk2" kind="clock_sink" version="19.1">
