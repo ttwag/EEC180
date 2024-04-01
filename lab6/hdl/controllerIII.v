@@ -72,7 +72,7 @@ always@(*) begin
             en_hist_ = 1'b1;
             addr_pix = addr_pix_r + 1;
             addr_hist = 6'b0;
-            if (addr_pix == ({7'b0, dim}**2) >> 2) begin
+            if (addr_pix == ({9'b0, dim}**2) >> 2) begin
                 addr_pix = 6'b0;
                 first_read_hist = 1'b1;
                 ns = read_hist;
